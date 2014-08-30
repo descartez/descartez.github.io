@@ -4,7 +4,6 @@ body{
 
 .header {
 	font-weight: bold;
-	font-family: Arial;
 	font-size: 5em;
 	text-align: center;
 	font-family: Courier;
@@ -18,6 +17,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+	background-color: #6699CC;
 
 }
 
@@ -32,7 +32,6 @@ body{
 	height: 15%;
 	width: 100%;
 	font-size: 2em;
-	background-color: #6699CC;
 	display: inline;
 	margin-left: 4px;
 	margin-right: 4px;
@@ -61,7 +60,6 @@ body{
 	font-size: 2em;
 	background-color: #3366CC;
 	text-align: center;
-
 }
 
 .tumblr_posts {	
@@ -73,9 +71,8 @@ body{
 	padding-top: 1%;
 	list-style-type: none;
 	width: 60%;	
-	float: center;
-
 }
+
 .tumblr_post {	
 	font-style: Arial;
 	padding-left: 7%;
@@ -87,8 +84,8 @@ body{
 	border-top: 10px;
 	border-color: #666699;
 	width: 95%;
-
 }
+
 .tumblr_title {	
 	font-size: 2em;
 	background-color: #666699;
@@ -96,6 +93,4 @@ body{
 	width: 100%;
 	padding-bottom: 15px;
 	text-align: center;
-	float: center;
-
 }
