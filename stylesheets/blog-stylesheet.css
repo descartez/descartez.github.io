@@ -1,11 +1,5 @@
 body{
-
-}
-
-span {
-	height: 2em;
-	width: 2em;
-	background-color: #663366;
+	
 }
 
 .header {
@@ -16,7 +10,6 @@ span {
 	background-color: #CCCCFF;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: 5px;
 }
 
 .navbar ul {
@@ -28,6 +21,7 @@ span {
 	padding: 0px;
 	width: 100%;
 	background-color: #9999CC;
+	background-position: center;
 }
 
 .navbar a {
@@ -57,13 +51,11 @@ span {
 	vertical-align: middle;
 }
 
-.blog p {
+.blog {
 	font-style: Arial;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 5px;
-	list-style-type: none;
-
 }
 
 .blog h3{
@@ -74,7 +66,26 @@ span {
 	padding-left: 10%;
 }
 
+.blog ul {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	padding-left: 0px;
+}
 
+.blog li {
+	float: left;
+}
+
+.blog img{
+	width: 75%;
+	height: 50%;
+
+}
+
+.blog p{
+}
 
 /*Not going to use just yet*/
 
