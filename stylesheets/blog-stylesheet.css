@@ -1,0 +1,101 @@
+body{
+	background-color: #CCCCCC;
+}
+
+.header {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 5em;
+	text-align: center;
+	font-family: Courier;
+}
+
+.navbar ul {
+	text-align: center;
+	height: 15%;
+	font-size: 1em;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+
+.navbar a {
+	color: #000;
+	text-decoration: none;
+	width: 60px;
+}
+
+.navbar li {
+	display: table-row;
+	height: 15%;
+	width: 100%;
+	font-size: 2em;
+	background-color: #6699CC;
+	display: inline;
+	margin-left: 4px;
+	margin-right: 4px;
+	display: inline block;
+	margin: 2 2 10px 0;
+	vertical-align: middle;
+}
+
+.navbar img{
+	height: 5%;
+	text-align: center;
+	margin: 0 0 10px 0;
+	vertical-align: middle;
+}
+
+.blog {
+	font-style: Arial;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5px;
+	list-style-type: none;
+
+}
+
+.blog h3{
+	font-size: 2em;
+	background-color: #3366CC;
+	text-align: center;
+
+}
+
+.tumblr_posts {	
+	font-style: Arial;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	list-style-type: none;
+	width: 60%;	
+	float: center;
+
+}
+.tumblr_post {	
+	font-style: Arial;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 5px;
+	list-style-type: none;
+	border-top: 10px;
+	border-color: #666699;
+	width: 95%;
+
+}
+.tumblr_title {	
+	font-size: 2em;
+	background-color: #666699;
+	font-family: Arial;
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+	float: center;
+
+}
