@@ -108,6 +108,11 @@ nav a:hover{
 
 }
 
+pre {
+	background-color: grey;
+	padding-top: 15px;
+}
+
 article {
  	padding-top: 5%;
  	font-size: 1.15em;
