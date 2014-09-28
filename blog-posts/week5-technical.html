@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Asap|Expletus+Sans:600italic|Amaranth:400italic' rel='stylesheet' type='text/css'>
+	<title>Dez does Dev</title>
+</head>
+
+<body>	
+	<div id="wrapper">	
+		<header>
+			<a href="../index.html">Dez <span>does</span> Dev</a>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="blogs.html">posts</a>
+				</li>
+				<li>
+					<a href="../projects/projects.html">projects</a>
+				</li>
+				<li>
+					<a href="about.html">about</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="content">
+			<br>
+			<br>
+			<h1>
+				Technical Post: Class Warfare
+			</h1>
+			<p>
+				So today we're gonna learn about classes and their instance variables. So what better way to learn about classes than to play a game? We have solitaire, or chess, or... Thermonuclear warfare. One of these things is not like the other. In fact one of these things is a very overt reference to the movie "Wargames", starring a very young Matthew Broderick. If you haven't seen it, you're missing out. Still has the most accurate depiction of hacking despite it being made in the golden age of the floppy disk. The big ones. 
+			</p>
+			<h1>
+				Initialize
+			</h1>
+			<p>
+				I made a little game here, very simple. You start out with a population, and you can choose how many to put in bunkers. If you want to, you can even kick people out if they displease you. All while missiles rain down. Remember! These are your comrades! The people! You must protect them from capitalist scum!
+				<br>
+				<br>
+				First, let's make the class. We'll need a population of course.
+			</p>
+				<br>
+				<pre>
+					class Coldwar
+
+					attr_accessor :total_population, :underground_pop, :aboveground_pop
+
+						def initialize(population)
+							@aboveground_pop = population
+							@underground_pop = 0
+						end
+				</pre>
+				<br>
+				<br>
+			<p>
+				Initialize is important. It's how we get started on this thing.It means that if we do this:
+				<code>test = Coldwar.new(5)</code> 
+				That means that it will create a new Class with @total_population equal to five. That means we'll have something to work with when we introduce other methods.You'll also notice a few things here. Those things with the @ symbol. Those are instance variables. The reason why we put that little @ symbol is so that these variables can be accessed by other methods throughout the class. Handy, considering we will want to update the populations (aboveground and belowground) each time we call other methods. (Don't worry about <code>attr_accessor</code>, that's just a little trick that programmers use if they want to change something later. Look it up if you're curious.)
+			</p>
+			<h1>
+				The Bunker
+			</h1>
+				<pre>
+					def bunker(people)
+						if people > @total_population
+							raise ArgumentError.new("You can't bunker more that you have.")
+						else
+							@underground_pop += people
+							@aboveground_pop -= people
+						end
+					end
+
+					def unbunker(people)
+						if people > @total_population
+							raise ArgumentError.new("You can't unbunker more that you have.")
+						else
+							@underground_pop -= people
+							@aboveground_pop += people
+						end
+					end
+				</pre>
+			<p>
+			See how we made two methods here? They do pretty much the same thing. Except bunker takes the amount of people you want, adds them to your underground population and subtracts that amount from your aboveground population. Unbunker does the opposite, taking people out of your bunker and pushing them outside. In case one of your citizens snore or something. I also added an error message, so if you try to put more people underground than you have it will tell you.
+			</p>
+		<h1>
+			The Missile Strike
+		</h1>
+			<pre>
+					def missile
+						if @aboveground_pop > 0
+							@aboveground_pop -= 1
+							puts "One down. \n"
+						else
+							puts 'There is no one to splode.'
+						end
+					end
+			</pre>
+			<p>
+				Oh no! Those capitalist pigs have missiles! Notice how I put in another if/else statement? This time it tells you if everyone is dead. Now that we made a missile, which subtracts from the aboveground population (missiles can't dig underground), we can play through the scenario.
+			</p>
+			<pre>
+					def census
+						puts "\n Above Ground Population: \n"
+						puts @aboveground_pop
+						puts "Bunkered Population: \n"
+						puts @underground_pop
+					end
+			</pre>
+			<p>
+				I also made a little thing that shows how many people we have left.
+			</p>
+		<h1>
+			The Conflict
+		</h1>
+			<pre>
+					conflict.census
+					conflict.bunker(5) #I like my citizens. They can live.
+					conflict.missile #just in time too!
+					conflict.missile
+					conflict.census
+					conflict.unbunker(1) #Ivan was stealing the covers.
+					conflict.census
+					conflict.missile
+					conflict.census
+			</pre>
+			<p>
+				So... now what? Well, then we run the thing! That gives us this.
+			</p>
+			<pre>
+					Above Ground Population: 
+					5
+					Bunkered Population: 
+					0
+					"There is no one to splode."
+					"There is no one to splode."
+
+					Above Ground Population: 
+					0
+					Bunkered Population: 
+					5
+
+					Above Ground Population: 
+					1
+					Bunkered Population: 
+					4
+					One down. 
+
+					Above Ground Population: 
+					0
+					Bunkered Population: 
+					4
+			</pre>
+			<p>
+				As you can see. Pretty successful! We only lost one comrade, which isn't too bad. He was a bit of a jerk.
+			</p>
+			<h1>
+				What did we learn?
+			</h1>
+			<p>
+				If you were paying attention, you should've noticed how we made a class, how we made variables accessible throughout the class, and how to preserve your country's population from missiles. The @ symbol is vital to this. All I did was add and subtract, but you can do more! You can make them arrays, and use the various array methods to mess with them. You can just make them strings, or hashes, pretty much any object. Keep researching, this is only a tiny example of what you can do. Good luck comrade!
+			</p>
+		</div>
+	</body>
