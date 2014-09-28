@@ -43,14 +43,14 @@
 				First, let's make the class. We'll need a population of course.
 			</p>
 				<pre>
-					class Coldwar
+class Coldwar
 
-					attr_accessor :total_population, :underground_pop, :aboveground_pop
+attr_accessor :total_population, :underground_pop, :aboveground_pop
 
-						def initialize(population)
-							@aboveground_pop = population
-							@underground_pop = 0
-						end
+	def initialize(population)
+		@aboveground_pop = population
+		@underground_pop = 0
+	end
 				</pre>
 			<p>
 				Initialize is important. It's how we get started on this thing.It means that if we do this:
@@ -61,23 +61,25 @@
 				The Bunker
 			</h1>
 				<pre>
-					def bunker(people)
-						if people > @total_population
-							raise ArgumentError.new("You can't bunker more that you have.")
-						else
-							@underground_pop += people
-							@aboveground_pop -= people
-						end
-					end
+def bunker(people)
+	if people > @total_population
+		raise ArgumentError.new("You can't bunker 
+					more that you have.")
+	else
+		@underground_pop += people
+		@aboveground_pop -= people
+	end
+end
 
-					def unbunker(people)
-						if people > @total_population
-							raise ArgumentError.new("You can't unbunker more that you have.")
-						else
-							@underground_pop -= people
-							@aboveground_pop += people
-						end
-					end
+def unbunker(people)
+	if people > @total_population
+		raise ArgumentError.new("You can't unbunker
+					more that you have.")
+	else
+		@underground_pop -= people
+		@aboveground_pop += people
+	end
+end
 				</pre>
 			<p>
 			See how we made two methods here? They do pretty much the same thing. Except bunker takes the amount of people you want, adds them to your underground population and subtracts that amount from your aboveground population. Unbunker does the opposite, taking people out of your bunker and pushing them outside. In case one of your citizens snore or something. I also added an error message, so if you try to put more people underground than you have it will tell you.
@@ -86,25 +88,25 @@
 			The Missile Strike
 		</h1>
 			<pre>
-					def missile
-						if @aboveground_pop > 0
-							@aboveground_pop -= 1
-							puts "One down. \n"
-						else
-							puts 'There is no one to splode.'
-						end
-					end
+def missile
+	if @aboveground_pop > 0
+		@aboveground_pop -= 1
+		puts "One down. \n"
+	else
+		puts 'There is no one to splode.'
+	end
+end
 			</pre>
 			<p>
 				Oh no! Those capitalist pigs have missiles! Notice how I put in another if/else statement? This time it tells you if everyone is dead. Now that we made a missile, which subtracts from the aboveground population (missiles can't dig underground), we can play through the scenario.
 			</p>
 			<pre>
-					def census
-						puts "\n Above Ground Population: \n"
-						puts @aboveground_pop
-						puts "Bunkered Population: \n"
-						puts @underground_pop
-					end
+def census
+	puts "\n Above Ground Population: \n"
+	puts @aboveground_pop
+	puts "Bunkered Population: \n"
+	puts @underground_pop
+end
 			</pre>
 			<p>
 				I also made a little thing that shows how many people we have left.
@@ -113,42 +115,42 @@
 			The Conflict
 		</h1>
 			<pre>
-					conflict.census
-					conflict.bunker(5) #I like my citizens. They can live.
-					conflict.missile #just in time too!
-					conflict.missile
-					conflict.census
-					conflict.unbunker(1) #Ivan was stealing the covers.
-					conflict.census
-					conflict.missile
-					conflict.census
+conflict.census
+conflict.bunker(5) #I like my citizens. They can live.
+conflict.missile #just in time too!
+conflict.missile
+conflict.census
+conflict.unbunker(1) #Ivan was stealing the covers.
+conflict.census
+conflict.missile
+conflict.census
 			</pre>
 			<p>
 				So... now what? Well, then we run the thing! That gives us this.
 			</p>
 			<pre>
-					Above Ground Population: 
-					5
-					Bunkered Population: 
-					0
-					"There is no one to splode."
-					"There is no one to splode."
+Above Ground Population: 
+5
+Bunkered Population: 
+0
+"There is no one to splode."
+"There is no one to splode."
 
-					Above Ground Population: 
-					0
-					Bunkered Population: 
-					5
+Above Ground Population: 
+0
+Bunkered Population: 
+5
 
-					Above Ground Population: 
-					1
-					Bunkered Population: 
-					4
-					One down. 
+Above Ground Population: 
+1
+Bunkered Population: 
+4
+One down. 
 
-					Above Ground Population: 
-					0
-					Bunkered Population: 
-					4
+Above Ground Population: 
+0
+Bunkered Population: 
+4
 			</pre>
 			<p>
 				As you can see. Pretty successful! We only lost one comrade, which isn't too bad. He was a bit of a jerk.

@@ -56,6 +56,7 @@ header a:hover{
 nav {
 	text-decoration: none;
 	background-color: #ff524a;
+	font-style: sans-serif;
 }
 
 nav ul {
@@ -98,9 +99,10 @@ nav a:hover{
 #content {
 	display: block;
 	float: center;
-	width: 85%;
+	width: 65%;
 	margin: 0 auto;
 	padding: 20px 0px;
+	font-size: 1.15em;
 }
 
 #blogs-projects article {
@@ -111,6 +113,10 @@ nav a:hover{
 pre {
 	background-color: grey;
 	padding-top: 15px;
+	border-width: 5px;
+	border-color: white;
+	text-align: left;
+	padding-left: 30px;
 }
 
 article {
