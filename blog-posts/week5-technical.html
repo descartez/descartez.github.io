@@ -33,9 +33,9 @@
 			<p>
 				So today we're gonna learn about classes and their instance variables. So what better way to learn about classes than to play a game? We have solitaire, or chess, or... Thermonuclear warfare. One of these things is not like the other. In fact one of these things is a very overt reference to the movie "Wargames", starring a very young Matthew Broderick. If you haven't seen it, you're missing out. Still has the most accurate depiction of hacking despite it being made in the golden age of the floppy disk. The big ones. 
 			</p>
-			<h1>
+			<h2>
 				Initialize
-			</h1>
+			</h2>
 			<p>
 				I made a little game here, very simple. You start out with a population, and you can choose how many to put in bunkers. If you want to, you can even kick people out if they displease you. All while missiles rain down. Remember! These are your comrades! The people! You must protect them from capitalist scum!
 				<br>
@@ -57,9 +57,9 @@ attr_accessor :total_population, :underground_pop, :aboveground_pop
 				<code>test = Coldwar.new(5)</code> 
 				That means that it will create a new Class with @total_population equal to five. That means we'll have something to work with when we introduce other methods.You'll also notice a few things here. Those things with the @ symbol. Those are instance variables. The reason why we put that little @ symbol is so that these variables can be accessed by other methods throughout the class. Handy, considering we will want to update the populations (aboveground and belowground) each time we call other methods. (Don't worry about <code>attr_accessor</code>, that's just a little trick that programmers use if they want to change something later. Look it up if you're curious.)
 			</p>
-			<h1>
+			<h2>
 				The Bunker
-			</h1>
+			</h2>
 				<pre>
 def bunker(people)
 	if people > @total_population
@@ -84,9 +84,9 @@ end
 			<p>
 			See how we made two methods here? They do pretty much the same thing. Except bunker takes the amount of people you want, adds them to your underground population and subtracts that amount from your aboveground population. Unbunker does the opposite, taking people out of your bunker and pushing them outside. In case one of your citizens snore or something. I also added an error message, so if you try to put more people underground than you have it will tell you.
 			</p>
-		<h1>
+		<h2>
 			The Missile Strike
-		</h1>
+		</h2>
 			<pre>
 def missile
 	if @aboveground_pop > 0
@@ -111,9 +111,9 @@ end
 			<p>
 				I also made a little thing that shows how many people we have left.
 			</p>
-		<h1>
+		<h2>
 			The Conflict
-		</h1>
+		</h2>
 			<pre>
 conflict.census
 conflict.bunker(5) #I like my citizens. They can live.
@@ -155,9 +155,9 @@ Bunkered Population:
 			<p>
 				As you can see. Pretty successful! We only lost one comrade, which isn't too bad. He was a bit of a jerk.
 			</p>
-			<h1>
+			<h2>
 				What did we learn?
-			</h1>
+			</h2>
 			<p>
 				If you were paying attention, you should've noticed how we made a class, how we made variables accessible throughout the class, and how to preserve your country's population from missiles. The @ symbol is vital to this. All I did was add and subtract, but you can do more! You can make them arrays, and use the various array methods to mess with them. You can just make them strings, or hashes, pretty much any object. Keep researching, this is only a tiny example of what you can do. Good luck comrade!
 			</p>

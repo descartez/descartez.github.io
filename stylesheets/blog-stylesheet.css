@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body{
 	background-color: #b4b4b4;
@@ -57,6 +58,7 @@ nav {
 	text-decoration: none;
 	background-color: #ff524a;
 	font-style: sans-serif;
+	font-family: Droid Sans;
 }
 
 nav ul {
@@ -103,10 +105,7 @@ nav a:hover{
 	margin: 0 auto;
 	padding: 20px 0px;
 	font-size: 1.15em;
-}
-
-#blogs-projects article {
-	display: block;
+	font-family: Raleway;
 
 }
 
@@ -135,6 +134,7 @@ article {
 	font-size: 1.5em;
 	padding-top: 3%;
 	text-align: center;
+	font-family: Droid Sans;
 
 }
 
@@ -145,6 +145,7 @@ article {
 	padding: 3%;
 	font-size: 1.5em;
 	padding-top: 3%;
+	font-family: Droid Sans;
 }
 
  #content p {
@@ -173,6 +174,21 @@ article {
  	width: 50%;
  	height: 50%;
  }
+
+#contact ul{
+}
+
+#contact li {
+	display: inline-block;
+	width: 15%;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#contact img {
+	width: 30%;
+	height: 30%;
+}
 
 #gps-header {
     width: 85%;
