@@ -6,7 +6,8 @@
 body{
 	background-color: #b4b4b4;
 	background-size: 20%;
-	background-image: url(descartez.github.io/imgs/pokemon_trainer.png);
+	background-image: url("pokemon_trainer.png");
+	background-position: left;
 }
 
 #content .contact-pic {
