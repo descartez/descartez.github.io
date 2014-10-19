@@ -8,6 +8,7 @@ body{
 	background-size: 20%;
 	background-image: url("http://descartez.github.io/imgs/pokemon_trainer.png");
 	background-position: right;
+	background-repeat: no-repeat;
 }
 
 #content .contact-pic {
