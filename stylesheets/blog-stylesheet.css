@@ -5,7 +5,8 @@
 
 body{
 	background-color: #b4b4b4;
-	background-size: 20%
+	background-size: 20%;
+	background-image: url(descartez.github.io/imgs/pokemon_trainer.png);
 }
 
 #content .contact-pic {
@@ -59,12 +60,14 @@ nav {
 	background-color: #ff524a;
 	font-style: sans-serif;
 	font-family: Droid Sans;
+
 }
 
 nav ul {
 	list-style-type: none;
 	float: center;
 	text-align: center;
+
 
 }
 
@@ -73,6 +76,7 @@ nav li{
 	margin: 1%;
 	display: inline;
 	width: 25%;
+	box-shadow: 5px 5px 5px grey;
 }
 
 nav a{
@@ -116,6 +120,7 @@ pre {
 	border-color: white;
 	text-align: left;
 	padding-left: 30px;
+	box-shadow: 5px 5px 5px grey;
 }
 
 article {
@@ -135,6 +140,7 @@ article {
 	padding-top: 3%;
 	text-align: center;
 	font-family: Droid Sans;
+	box-shadow: 5px 5px 5px grey;
 
 }
 
@@ -146,6 +152,8 @@ article {
 	font-size: 1.5em;
 	padding-top: 3%;
 	font-family: Droid Sans;
+	margin-bottom: 0.001%;
+	box-shadow: 5px 5px 5px grey;
 }
 
  #content p {
@@ -156,6 +164,8 @@ article {
  	text-align: left;
  	float: center;
  	background-color: white;
+ 	margin-top: 1%;
+ 	box-shadow: 5px 5px 5px grey;
  }
 
  #content ul {
