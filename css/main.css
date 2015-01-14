@@ -1,0 +1,36 @@
+.title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.title h1 {
+  margin-bottom: 0%;
+}
+
+nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav li{
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0.5%;
+  vertical-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-button {
+  width: 150px;
+  height: 100px;
+  -webkit-transform: skew(-15deg);
+     -moz-transform: skew(-15deg);
+       -o-transform: skew(-15deg);
+  background: red;
+}
+
+
