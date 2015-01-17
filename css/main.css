@@ -1,36 +1,139 @@
+body {
+
+}
+
 .title {
-  font-size: 3em;
-  text-align: center;
+  font-family: 'Krungthep';
+  /*display: none;*/
 }
 
 .title h1 {
-  margin-bottom: 0%;
+  text-align: center
+}
+
+.title h2 {
+  margin-top: -2%;
+  text-align: center;
+  font-size: 1.2em;
+  color: grey;
+}
+
+.nav-bar {
+  /*display: none;*/
 }
 
 nav {
-  text-align: center;
   font-size: 2em;
 }
 
-nav li{
+nav ul {
+  /*width: 100%;*/
+}
+
+nav li {
   list-style-type: none;
   text-align: center;
   display: inline-block;
-  margin: 0.5%;
-  vertical-align: center;
+  /*float: right;*/
+  padding-left: 15%;
+  /*width: 30%;*/
+  /*width: 100%;*/
+  /*margin-left: 1%;*/
+  /*width: 10%;
+  height: 50px;
+  -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+  background: black;*/
 }
+
 
 nav a {
   text-decoration: none;
+  font-family: 'Krungthep';
+  color: black;
 }
 
-.nav-button {
-  width: 150px;
-  height: 100px;
-  -webkit-transform: skew(-15deg);
-     -moz-transform: skew(-15deg);
-       -o-transform: skew(-15deg);
-  background: red;
+.big-line {
+  /*width: 100%;*/
+  height: 3px;
+  background-color: black;
 }
 
+article {
 
+}
+
+article h1 {
+  font-size: 3em;
+  font-family: 'Krungthep';
+}
+
+article p {
+  padding-top: 1.3%;
+  font-family: 'Arial';
+  font-size: 1.5em;
+}
+
+.skill-bar {
+  padding-top: 21px;
+}
+
+.skill-bar li{
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+}
+
+.js-bar {
+  height: 70px;
+  width: 25%;
+  background: #fed741;
+}
+
+.ruby-bar {
+  height: 70px;
+  width: 25%;
+  background: #c22326;
+}
+
+.html-bar {
+  height: 70px;
+  width: 15%;
+  background: #db5b26;
+}
+.css-bar {
+  height: 70px;
+  width: 15%;
+  background: #25a6df;
+}
+.other-bar {
+  height: 70px;
+  width: 20%;
+  background: #c8c9cb;
+}
+
+#about {
+  /*display: none;*/
+}
+
+#about img {
+  padding-top: 3.2%;
+  height: 20%
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+article {
+  /*border: 10px solid black*/
+}
