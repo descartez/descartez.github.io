@@ -34,11 +34,8 @@ nav li {
   list-style-type: none;
   text-align: center;
   display: inline-block;
-  /*float: right;*/
-  padding-left: 15%;
-  /*width: 30%;*/
-  /*width: 100%;*/
-  /*margin-left: 1%;*/
+  float: right;
+  /*padding-left: 15%;*/
   /*width: 10%;
   height: 50px;
   -webkit-transform: skew(-20deg);
