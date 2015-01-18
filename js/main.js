@@ -55,3 +55,27 @@
 // });
 // });
 
+$(document).ready(function(){
+  $(window).scroll(function() {
+    $('#animatedElement').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
+  // initial animation
+    console.log( "ready!" );
+    $('.title').fadeIn(2000, function(){
+      console.log('animation 1 should run!')
+    });
+    $('.nav-bar').fadeIn(2000, function(){
+      console.log('animation 2 should run!')
+    });
+    $('#about').fadeIn(2000, function(){
+      console.log('animation 3 should run!')
+    });
+})
+
