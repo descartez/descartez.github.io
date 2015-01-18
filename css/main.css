@@ -8,6 +8,10 @@ body {
   padding-bottom: 5%;
 }
 
+.icons img {
+  text-align: center;
+}
+
 .title {
   font-family: 'Krungthep';
   /*display: none;*/
