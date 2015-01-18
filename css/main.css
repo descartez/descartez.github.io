@@ -4,10 +4,13 @@ html {
   background-color: #c8c9cb;
 }
 
+body {
+  padding-bottom: 5%;
+}
+
 .title {
   font-family: 'Krungthep';
   /*display: none;*/
-
 }
 
 .title h1 {
@@ -167,13 +170,25 @@ article img {
   text-decoration: none;
 }
 
-#education {
+#education li{
+  list-style: none;
 }
 
 #education h2{
   font-size: 1.5em;
   font-family: 'Krungthep';
-  text-align: center;
+}
+
+#education h3{
+  font-size: 1.5em;
+  margin-top:-13px;
+  font-family: 'Krungthep';
+  color: grey;
+}
+
+#education p {
+  font-family: 'Arial';
+  font-size: 1.2em;
 }
 
 #experience {
@@ -183,11 +198,22 @@ article img {
 #experience h2{
   font-size: 1.5em;
   font-family: 'Krungthep';
-  text-align: center;
+}
+
+#experience h3{
+  font-size: 1.5em;
+  margin-top:-13px;
+  font-family: 'Krungthep';
+  color: grey;
 }
 
 #experience li{
   list-style: none;
+}
+
+#contact li{
+  list-style: none;
+  display: inline-block;
 }
 
 .come-in {
