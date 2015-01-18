@@ -13,9 +13,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/simplegrid.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <!-- <body class='grid grid-pad'> -->
@@ -31,36 +31,116 @@
 
 
         <nav>
-          <div class='title'>
-            <h1>Ryan Stong: Web Developer</h1>
-            <h2>San Francisco, CA</h2>
-          <div class='big-line'></div>
-            <ul>
-              <div='nav-button'><li><a href="#">Skills</a></li></div>
-              <div='nav-button'><li><a href="#">Projects</a></li></div>
-              <div='nav-button'><li><a href="#">Contact</a></li></div>
-            </ul>
-          <div class='big-line'></div>
-        </div>
+          <div class='container'>
+            <div class='row title'>
+              <h1>Ryan Stong: Web Developer</h1>
+            </div>
+            <div class='row title'>
+              <h2>San Francisco, CA</h2>
+            </div>
+            <div class='row'>
+              <div class='col-md-1'></div>
+              <div class='col-md-2 nav-button'><a href="#skills">Skills</a></div>
+              <div class='col-md-1'></div>
+              <div class='col-md-2 nav-button'><a href="#projects">Projects</a></div>
+              <div class='col-md-1'></div>
+              <div class='col-md-2 nav-button'><a href="#experience">Experience</a></div>
+              <div class='col-md-1'></div>
+              <div class='col-md-2 nav-button'><a href="#contact">Contact</a></div>
+            </div>
+          </div>
         </nav>
 
         <body>
-          <article id='about'>
-            <h1>ABOUT</h1>
-            <p>JavaScript and UX enthusiast, Dev Boot Camp grad. I love to design, whether it's creating art or writing code, I see very little difference. Both require solutions and have multiple ways of getting to them. Accessibility is a design problem, readability is a design problem, functional code is a design problem. How a user interacts with your product is a design problem, and that's where I love to be.</p>
-            <img src="img/profile.jpeg"></img>
-          </article>
+          <div class='container'>
+            <article id='about'>
+              <div class='row'>
+                <div class='col-md-2'><h1>ABOUT</h1></div>
+                <div class='col-md-5'>
+                  <p>JavaScript and UX enthusiast. 1000+ hours at Dev Boot Camp, illustration and graphic arts experience, and a love for design. Interested in front-end and solving problems that helps others do their work.</p>
+                </div>
+                <div class='col-md-4'><img src="img/profile.png"></img></div>
+                <div class='col-md-1'></div>
+              </div>
+            </article>
 
-          <article id='skills'>
-            <h1>SKILLS</h1>
-            <div class='skill-bar'>
-              <ul>
-                <li class='js-bar'></li>
-                <li class='ruby-bar'></li>
-                <li class='html-bar'></li>
-                <li class='css-bar'></li>
-                <li class='other-bar'></li>
-              </ul>
-          </article>
-        </body>
-        </html>
+            <article id='skills'>
+              <a name='skills'></a>
+              <div class='col-md-2'><h1>SKILLS</h1></div>
+              <div class='skill-bar col-md-10'>
+                <ul>
+                  <li class='js-bar'>JavaScript</li>
+                  <li class='ruby-bar'>Ruby</li>
+                  <li class='html-bar'>HTML</li>
+                  <li class='css-bar'>CSS</li>
+                  <li class='other-bar'>More</li>
+                </ul>
+              </div>
+              <div class='row'>
+                <div class='col-md-2'></div>
+                <div class='col-md-10'>
+                  <br>
+                  <p>JavaScript, jQuery, Ruby, Rails, HTML/CSS, and anything in the Adobe Creative Suite.</p>
+                  <p>Interested in further education with AngularJS.</p>
+                </div>
+              </div>
+            </article>
+
+            <article id='projects'>
+              <a name='pr ojects'></a>
+              <div class='row'><div class='col-md-2'><h1>PROJECTS</h1></div></div>
+              <div class='row'>
+                <div class='col-md-1'></div>
+                <div class='col-md-4'>
+                  <h2><a href='http://codecrush.herokuapp.com'>Code Crush</a></h2>
+                  <p>Interactive typing game built in one week as final project for Dev Boot Camp. Created to increase skill and speed in typing symbols and code.</p>
+                  <p>
+                    <strong>Contributions:</strong>
+                    Assets, Front End, Site Design
+                  </p>
+                  <p>
+                    <strong>Technologies:</strong>
+                    Phaser.io, JavaScript, MongoDB, Express, AngularJS, Node, Heroku
+                  </p>
+                </div>
+                <div class='col-md-4'>
+                  <h2><a href='http://invisiblekingdom.herokuapp.com'>Invisible Kingdom</a></h2>
+                  <p>Story generator which ties randomly generated content to geolocation coordinates.</p>
+                  <p>
+                    <strong>Contributions:</strong>
+                    Content, Functionality, Front End, Database
+                  </p>
+                  <p>
+                    <strong>Technologies:</strong>
+                    Sinatra, ActiveRecord, JavaScript
+                  </p>
+                  </div>
+                  <div class='col-md-3'>
+                    <h2><a href='https://github.com/descartez/algorithm.ic'>algorithm.ic</a></h2>
+                    <p>Collaborative repository of various algorithms and their programming solutions.</p>
+                    <p>
+                    <strong>Contributions:</strong>
+                    Content
+                  </p>
+                    <h2><a href='https://github.com/descartez'>Always building<a></h2>
+                    <p>More to come!</p>
+                  </div>
+                </div>
+              </article>
+              <article id='experience'>
+                <a name='experience'></a>
+                <div class='col-md-6'>
+                  <h1>Experience</h1>
+                  <ul>
+                    <li><h2>Dev Boot Camp, Aug 2014-Jan 2015</h2></li>
+                  </ul>
+                </div>
+              </article>
+              <article id='education'>
+                <div class='col-md-6'>
+                  <h1>Education</h1>
+                </div>
+              </article>
+            </div>
+          </body>
+          </html>
