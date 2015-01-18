@@ -1,0 +1,233 @@
+html {
+  padding: 3%;
+  margin: 1%;
+  background-color: #c8c9cb;
+}
+
+body {
+  padding-bottom: 5%;
+}
+
+.icons img {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Krungthep';
+  /*display: none;*/
+}
+
+.title h1 {
+  text-align: center
+}
+
+.title h2 {
+  margin-top: -0.7%;
+  text-align: center;
+  font-size: 1.2em;
+  color: grey;
+}
+
+.nav-bar {
+  /*display: none;*/
+}
+
+.nav-buttons {
+  text-align: center;
+}
+
+nav {
+  font-size: 2em;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  /*background: #c8c9cb;*/
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Krungthep';
+  color: black;
+}
+
+
+article {
+  margin-top: 5%;
+}
+
+article h1 {
+  font-size: 3em;
+  font-family: 'Krungthep';
+}
+
+article p {
+  font-family: 'Arial';
+  font-size: 1.5em;
+}
+
+article img {
+  padding-top: 22px;
+}
+
+#about {
+  /*display: none;*/
+}
+
+#about img {
+  padding-top: 3.2%;
+  height: 20%
+}
+
+#skills {
+  border-top: 3px solid black;
+}
+
+#skills p {
+  padding-left: 40px
+}
+
+#about p {
+  padding-top: 21px;
+  font-family: 'Arial';
+  font-size: 1.5em;
+}
+
+.skill-bar {
+  padding-top: 21px;
+}
+
+.skill-bar li{
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  font-family: 'Krungthep';
+  font-size: 2em;
+  padding-left: 0.5%;
+  padding-top: 35px;
+  color: white;
+}
+
+.js-bar {
+  height: 70px;
+  width: 25%;
+  background: #fed741;
+}
+
+.js-list {
+  font-size: 1.5em;
+  font-family: 'Arial';
+}
+
+.ruby-bar {
+  height: 70px;
+  width: 25%;
+  background: #c22326;
+}
+
+.ruby-list {
+  font-size: 1.5em;
+  font-family: 'Arial';
+}
+
+.html-bar {
+  height: 70px;
+  width: 15%;
+  background: #db5b26;
+}
+
+.html-list {
+  font-size: 1.5em;
+  font-family: 'Arial';
+}
+
+.css-bar {
+  height: 70px;
+  width: 15%;
+  background: #25a6df;
+}
+
+.css-list {
+  font-size: 1.5em;
+  font-family: 'Arial';
+  padding-right: -3%;
+}
+
+.other-bar {
+  height: 70px;
+  width: 20%;
+  background: #c8c9cb;
+}
+
+#projects {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding-bottom: 5%;
+}
+
+#projects h2{
+  font-size: 1.5em;
+  font-family: 'Krungthep';
+  text-align: center;
+}
+
+#projects p {
+  color: black;
+  text-decoration: none;
+}
+
+#education li{
+  list-style: none;
+}
+
+#education h2{
+  font-size: 1.5em;
+  font-family: 'Krungthep';
+}
+
+#education h3{
+  font-size: 1.5em;
+  margin-top:-13px;
+  font-family: 'Krungthep';
+  color: grey;
+}
+
+#education p {
+  font-family: 'Arial';
+  font-size: 1.2em;
+}
+
+#experience {
+
+}
+
+#experience h2{
+  font-size: 1.5em;
+  font-family: 'Krungthep';
+}
+
+#experience h3{
+  font-size: 1.5em;
+  margin-top:-13px;
+  font-family: 'Krungthep';
+  color: grey;
+}
+
+#experience li{
+  list-style: none;
+}
+
+#contact li{
+  list-style: none;
+  display: inline-block;
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
