@@ -52,6 +52,7 @@ nav a {
 
 article {
   margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 article h1 {
@@ -93,6 +94,7 @@ article img {
 
 .skill-bar {
   padding-top: 21px;
+  display: hidden;
 }
 
 .skill-bar li{

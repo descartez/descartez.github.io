@@ -1082,19 +1082,19 @@ stretchRight
     transform: scaleX(0.3);
   }
   40% {
-    transform: scaleX(1.02);
+    transform: scaleX(1);
   }
   60% {
-    transform: scaleX(0.98);
+    transform: scaleX(1);
   }
   80% {
-    transform: scaleX(1.01);
+    transform: scaleX(1);
   }
   100% {
-    transform: scaleX(0.98);
+    transform: scaleX(1);
   }
   80% {
-    transform: scaleX(1.01);
+    transform: scaleX(1);
   }
   100% {
     transform: scaleX(1);
@@ -1106,19 +1106,19 @@ stretchRight
     -webkit-transform: scaleX(0.3);
   }
   40% {
-    -webkit-transform: scaleX(1.02);
+    -webkit-transform: scaleX(1);
   }
   60% {
     -webkit-transform: scaleX(0.98);
   }
   80% {
-    -webkit-transform: scaleX(1.01);
+    -webkit-transform: scaleX(1);
   }
   100% {
     -webkit-transform: scaleX(0.98);
   }
   80% {
-    -webkit-transform: scaleX(1.01);
+    -webkit-transform: scaleX(1);
   }
   100% {
     -webkit-transform: scaleX(1);
