@@ -57,12 +57,12 @@
 
 $(document).ready(function(){
   $(window).scroll(function() {
-    $('#animatedElement').each(function(){
+    $('.skill-bar').each(function(){
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+400) {
-        $(this).addClass("slideUp");
+      if (imagePos < topOfWindow+700) {
+        $(this).addClass("stretchRight");
       }
     });
   });
