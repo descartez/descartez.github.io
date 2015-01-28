@@ -238,7 +238,7 @@ article img {
 }
 
 /*flipbook CSS*/
-.flipbook li{
+.panel{
   display: inline;
   color: red;
   font-family: 'Krungthep'

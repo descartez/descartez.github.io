@@ -60,12 +60,7 @@
                   </p>
                 </div>
                 <div class='col-md-7 flipbook' ng-controller='flipCtrl as ctrl'>
-                  <ul>
-                    <div>
-                      <li>{{ ctrl.currentPanel }}</li>
-                    </div>
-                    <button ng-click='ctr.nextPanel()'>Animate!</button>
-                  </ul>
+                      <div class='panel' ng-click='ctrl.nextPanel()' ><img ng-src="img/{{ctrl.currentPanel}}"/></div>
                 </div>
               </div>
             </article>
