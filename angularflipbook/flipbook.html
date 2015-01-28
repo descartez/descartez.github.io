@@ -53,9 +53,20 @@
                 <h1>The Angular Flipbook</h1>
               </div>
               <div class='row'>
-                <p>
-
-                </p>
+                <div class='col-md-5'>
+                  <p>
+                    <em>Click on the image to 'flip' through the images!</em>
+                    Angular directives switch out the image for another in order to give the appearance of animation.
+                  </p>
+                </div>
+                <div class='col-md-7 flipbook' ng-controller='flipCtrl as ctrl'>
+                  <ul>
+                    <div>
+                      <li>{{ ctrl.currentPanel }}</li>
+                    </div>
+                    <button ng-click='ctr.nextPanel()'>Animate!</button>
+                  </ul>
+                </div>
               </div>
             </article>
           </div>
