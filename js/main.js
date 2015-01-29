@@ -68,7 +68,7 @@ $(document).ready(function(){
   });
   // initial animation
     console.log( "ready!" );
-    $('.title').fadeIn(2000, function(){
+    $('.fadein').fadeIn(2000, function(){
       console.log('animation 1 should run!')
     });
     $('.nav-bar').fadeIn(2000, function(){
