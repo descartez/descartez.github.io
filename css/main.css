@@ -239,9 +239,15 @@ article img {
 
 /*flipbook CSS*/
 .panel{
-  display: inline;
-  color: red;
-  font-family: 'Krungthep'
+
+}
+
+.supes {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  padding-left: 100px;
+  padding-top: 100px;
 }
 
 .supes {
