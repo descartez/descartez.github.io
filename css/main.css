@@ -243,3 +243,11 @@ article img {
   color: red;
   font-family: 'Krungthep'
 }
+
+.supes {
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  padding-left: 100px;
+  padding-top: 100px;
+}
