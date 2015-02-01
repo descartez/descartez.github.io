@@ -1,0 +1,107 @@
+<html ng-app="app">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ryan Stong: Web Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="patreon_resume.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <script src="../js/vendor/jquery-1.10.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+        <!-- Add your site or application content here -->
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <ul>
+              <li>
+                <a href=''>About</a>
+              </li>
+              <li>
+                <a href=''>Skills</a>
+              </li>
+              <li>
+                <a href=''>Why Dev?</a>
+              </li>
+              <li>
+                <a href=''>Edu/EXP</a>
+              </li>
+              <li>
+                <a href=''>Projects</a>
+              </li>
+              <li>
+                <a href=''>Resumé</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <body ng-controller='InfoCtrl as ctrl'>
+          <div class='container'>
+            <span id='splash-image'></span>
+            <div class='splash-text fadeIn'>
+              <div class='row'><h1>Ryan Stong</h1></div>
+              <div class='row'><h2>Front End, UX Dev</h2></div>
+              <div class='row'><h2 id='heart'><3</h2></div>
+            </div>
+            <div class='tiles'>
+            <div ng-repeat='tile in ctrl.tiles'>
+              <div class='row tile {{tile.tag}}'>
+                <div class='col-md-6'><img ng-src='{{tile.picture}}'></img></div>
+                <div class='col-md-6'>
+                  <h3>{{tile.title}}</h3>
+                  <br>
+                  <p>{{tile.content}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='education exp row'>
+            <h3>Education</h3>
+            <ul>
+              <div class='col-md-3'ng-repeat='edu in ctrl.education'>
+                <li>
+                  <h3>{{edu.institution}}</h3>
+                  <p>{{edu.major}}</p>
+                  <p>{{edu.timePeriod}}</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div class='experience exp row'>
+            <h3>Experience</h3>
+            <ul>
+              <div class='col-md-3'ng-repeat='exp in ctrl.experience'>
+                <li>
+                  <h3>{{exp.company}}</h3>
+                  <p>{{exp.position}}</p>
+                  <p>{{exp.timePeriod}}</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.js" ></script>
+          <script src="patreon_resume.js"></script>
+        </body>
+        </html>
