@@ -11,10 +11,9 @@ app.controller('InfoCtrl',[function(){
   ];
 
   self.education = [
-    { institution: 'wat', major: 'more wat', timePeriod: 'eternity'},
-    { institution: 'wat', major: 'more wat', timePeriod: 'eternity'},
-    { institution: 'wat', major: 'more wat', timePeriod: 'eternity'},
-    { institution: 'wat', major: 'more wat', timePeriod: 'eternity'},
+    { institution: 'Dev Bootcamp', major: 'Web Dev Graduate', description: '+1000 hour, 19 week immersive coding boot camp, based in San Francisco.', timePeriod: 'Aug 2014-Jan 2015'},
+    { institution: 'Westmont College', major: 'Bachelors of Arts, Communication Studies', description: 'Classical Liberal Arts education, with specific focus on graphics, rhetoric, and marketing.', timePeriod: 'Aug 2008-May 2012'},
+    { institution: 'Illustration Academy', major: '3 week illustration intensive program in classical media and graphics.', description: 'Graduate', timePeriod: 'July 2010'},
   ];
 
   self.experience = [
@@ -26,10 +25,10 @@ app.controller('InfoCtrl',[function(){
   ];
 
   self.projects = [
-    { name: '', description: '', contribution: '', tech: '', link:''},
-    { name: '', description: '', contribution: '', tech: '', link:''},
-    { name: '', description: '', contribution: '', tech: '', link:''},
-    { name: '', description: '', contribution: '', tech: '', link:''},
+    { name: 'Code Crush', description: 'Interactive typing game built in one week as final project for Dev Boot Camp. Created to increase skill and speed in typing symbols and code.', contribution: 'Assets, Front End, Site Design, UX', tech: 'Phaser.io, JavaScript, MongoDB, Express, AngularJS, Node', link:'http://codecrush.herokuapp.com/#/home', shortLink: 'codecrush.herokuapp.com'},
+    { name: 'Invisible Kingdom', description: 'Story generator which ties randomly generated content to geolocation coordinates.', contribution: 'Content, Functionality, UX', tech: 'Sinatra, ActiveRecord, jQuery, AJAX', link:'http://invisiblekingdom.herokuapp.com/', shortLink: 'invisiblekingdom.herokuapp.com'},
+    { name: '', description: '', contribution: '', tech: '', link:'', shortLink: ''},
+    { name: '', description: '', contribution: '', tech: '', link:'', shortLink: ''},
   ];
 
 }]);

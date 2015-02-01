@@ -78,8 +78,8 @@ nav li a:hover {
 .exp {
   background-color: white;
   list-style-type: none;
-  padding-bottom: 20px;
-  padding: 5%;
+  /*padding-bottom: 10px;*/
+  padding: 4%;
 }
 
 .exp li {
@@ -91,9 +91,13 @@ nav li a:hover {
   margin-bottom: -5px;
 }
 
+.exp h4 {
+  font-size: 2em;
+}
+
 .exp p {
-  font-size: 1.5em;
-  margin-bottom: -10px;
+  font-size: 1.3em;
+  /*margin-bottom: -5px;*/
   color: grey
 }
 

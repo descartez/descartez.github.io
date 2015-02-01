@@ -43,10 +43,10 @@
                 <a href=''>Why Dev?</a>
               </li>
               <li>
-                <a href=''>Edu/EXP</a>
+                <a href=''>Projects</a>
               </li>
               <li>
-                <a href=''>Projects</a>
+                <a href=''>Edu/EXP</a>
               </li>
               <li>
                 <a href=''>Resumé</a>
@@ -75,14 +75,30 @@
               </div>
             </div>
           </div>
+
+          <div class='projects exp row'>
+            <h3>Projects</h3>
+            <ul>
+              <div class='col-md-4'ng-repeat='proj in ctrl.projects'>
+                <li>
+                  <a href='{{proj.link}}'><h4>{{proj.name}}</h4></a>
+                  <p>{{proj.description}}</p>
+                  <p><strong>Contributions:</strong>
+                  <br>{{proj.contribution}}</p>
+                  <p><strong>Technologies:</strong><br>{{proj.tech}}</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
           <div class='education exp row'>
             <h3>Education</h3>
             <ul>
-              <div class='col-md-3'ng-repeat='edu in ctrl.education'>
+              <div class='col-md-4'ng-repeat='edu in ctrl.education'>
                 <li>
-                  <h3>{{edu.institution}}</h3>
+                  <h4>{{edu.institution}},</h4>
+                  <h4>{{edu.timePeriod}}</h4>
                   <p>{{edu.major}}</p>
-                  <p>{{edu.timePeriod}}</p>
                 </li>
               </div>
             </ul>
@@ -93,13 +109,15 @@
             <ul>
               <div class='col-md-3'ng-repeat='exp in ctrl.experience'>
                 <li>
-                  <h3>{{exp.company}}</h3>
+                  <h4>{{exp.company}}</h4>
                   <p>{{exp.position}}</p>
                   <p>{{exp.timePeriod}}</p>
                 </li>
               </div>
             </ul>
           </div>
+
+
 
           <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.js" ></script>
           <script src="patreon_resume.js"></script>
