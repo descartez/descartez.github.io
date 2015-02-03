@@ -19,7 +19,7 @@ app.controller('InfoCtrl',[function(){
 
   self.experience = [
     { company: 'Dev Bootcamp', position: 'Web Dev Student', timePeriod: 'Aug 2014-Jan 2015' },
-    { company: 'PSAV Presentaions', position: 'Presentation Tech, Core Team member', timePeriod: 'April-Aug 2014' },
+    { company: 'PSAV Presentations', position: 'Presentation Tech, Core Team member', timePeriod: 'April-Aug 2014' },
     { company: 'Cheetah Conservation Fund', position: 'Advertising Rep, Graphic Designer (volunteer)', timePeriod: 'Feb 2014' },
     { company: 'Sur La Table', position: 'Retail Associate, Team Member', timePeriod: 'Nov 2013-Feb 2014' },
   ];
