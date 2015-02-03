@@ -9,6 +9,7 @@ nav li {
   padding-top: 10px;
   font-size: 1.3em;
   float: left;
+  /*font-family: 'Krungthep';*/
 }
 
 nav li a {
@@ -16,7 +17,6 @@ nav li a {
 }
 
 nav li a:hover {
-  color: grey;
   text-decoration: none;
   color: white;
 }
@@ -41,6 +41,7 @@ nav li a:hover {
   text-align: center;
   margin-top: 225px;
   color: #303030;
+  /*font-family: 'Krungthep';*/
 }
 
 .splash-text h1{
@@ -56,10 +57,33 @@ nav li a:hover {
   font-size: 2em;
 }
 
+.contact {
+  margin-top: 25px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: #303030;
+  padding: 10px;
+}
+
+.contact a:hover{
+  color: white;
+}
+
+.contact li {
+  display: inline;
+  padding: 3%;
+}
+
 .tiles {
   margin-top: 15%;
   background-color: white;
   padding: 40px;
+}
+
+.resume img:hover{
+  opacity: 0.7;
 }
 
 .tile img {
@@ -69,6 +93,7 @@ nav li a:hover {
 
 .tile h3 {
   font-size: 3em;
+  /*font-family: 'Krungthep';*/
 }
 
 .tile p {
@@ -92,14 +117,17 @@ nav li a:hover {
 .exp h3 {
   font-size: 3em;
   margin-bottom: -5px;
+  /*font-family: 'Krungthep';*/
 }
 
 .exp h4 {
   font-size: 2em;
+  /*font-family: 'Krungthep';*/
 }
 
 .exp h5 {
   font-size: 1.3em;
+  /*font-family: 'Krungthep';*/
 }
 
 .exp p {
