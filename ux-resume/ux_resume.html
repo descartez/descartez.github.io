@@ -35,22 +35,22 @@
           <div class="container">
             <ul>
               <li>
-                <a href=''>About</a>
+                <a href='#about'>About</a>
               </li>
               <li>
-                <a href=''>Skills</a>
+                <a href='#skills'>Skills</a>
               </li>
               <li>
-                <a href=''>Why Dev?</a>
+                <a href='#why-dev'>Why Dev?</a>
               </li>
               <li>
-                <a href=''>Resumé</a>
+                <a href='#resume'>Resumé</a>
               </li>
               <li>
-                <a href=''>Projects</a>
+                <a href='#projects'>Projects</a>
               </li>
               <li>
-                <a href=''>Edu/EXP</a>
+                <a href='#education'>Edu/EXP</a>
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@
             </div>
             <div class='tiles'>
             <div ng-repeat='tile in ctrl.tiles'>
-              <div class='row tile {{tile.tag}}'>
+              <div id='{{tile.tag}}'class='row tile {{tile.tag}}'>
                 <div class='col-md-6'><img ng-src='{{tile.picture}}'></img></div>
                 <div class='col-md-6'>
                   <h3>{{tile.title}}</h3>
@@ -81,7 +81,7 @@
                 </div>
               </div>
             </div>
-            <div class='row tile {{ctrl.finalTile.tag}}'>
+            <div class='row tile' id='{{ctrl.finalTile.tag}}'>
                 <div class='col-md-6'><img ng-src='{{ctrl.finalTile.picture}}'></img></div>
                 <div class='col-md-6'>
                   <h3>{{ctrl.finalTile.title}}</h3>
@@ -91,7 +91,7 @@
               </div>
           </div>
 
-          <div class='projects exp row'>
+          <div id='projects' class='exp row'>
             <h3 class='col-md-12'>Projects</h3>
             <ul>
               <div class='col-md-4 proj'ng-repeat='proj in ctrl.projects'>
@@ -114,7 +114,7 @@
             </ul>
           </div>
 
-          <div class='education exp row'>
+          <div id='education' class='education exp row'>
             <h3>Education</h3>
             <ul>
               <div class='col-md-4'ng-repeat='edu in ctrl.education'>
@@ -128,7 +128,7 @@
             </ul>
           </div>
 
-          <div class='experience exp row'>
+          <div id='experience' class='experience exp row'>
             <h3>Experience</h3>
             <ul>
               <div class='col-md-4'ng-repeat='exp in ctrl.experience'>
