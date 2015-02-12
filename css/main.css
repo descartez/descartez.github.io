@@ -22,7 +22,7 @@ nav li a:hover {
 }
 
 #splash-image {
-  background: url('img/TandyComputerWhizKids.png') center center;
+  background: url('../img/TandyComputerWhizKids.png') center center;
      background-size: cover;
      background-attachment: fixed;
      /*position: absolute;*/
