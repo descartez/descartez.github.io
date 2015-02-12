@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html ng-app="app">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -16,166 +16,133 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="../js/vendor/jquery-1.10.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
         <!-- Add your site or application content here -->
 
 
-        <nav>
-          <div class='container'>
-            <div class='row title fadein'>
-              <h1>Ryan Stong: Web Developer</h1>
-            </div>
-            <div class='row title fadein'>
-              <h2>San Francisco, CA</h2>
-            </div>
-            <div class='row title fadein'>
-              <div class='col-md-1'></div>
-              <div class='col-md-3 nav-button'><a href="#skills">Skills</a></div>
-              <div class='col-md-1'></div>
-              <div class='col-md-3 nav-button'><a href="#projects">Projects</a></div>
-              <div class='col-md-1'></div>
-              <div class='col-md-3 nav-button'><a href="#experience">Experience</a></div>
-            </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <ul>
+              <li>
+                <a href='#about'>About</a>
+              </li>
+              <li>
+                <a href='#skills'>Skills</a>
+              </li>
+              <li>
+                <a href='#why-dev'>Why Dev?</a>
+              </li>
+              <li>
+                <a href='#resume'>Resumé</a>
+              </li>
+              <li>
+                <a href='#projects'>Projects</a>
+              </li>
+              <li>
+                <a href='#education'>Edu/EXP</a>
+              </li>
+            </ul>
           </div>
         </nav>
 
-        <body>
+        <body ng-controller='InfoCtrl as ctrl'>
           <div class='container'>
-            <article id='about'>
-              <div class='row'>
-                <div class='col-md-2 '><h1>ABOUT</h1></div>
-                <div class='col-md-5'>
-                  <p>JavaScript and UX enthusiast. 1000+ hours at Dev Bootcamp, illustration and graphic arts experience, and a love for design. Interested in front-end and solving problems that helps others do their work.</p>
-                  <div class='row'>
-                  <div class='col-md-4'></div>
-                  <div class='col-md-4'><a href='https://github.com/descartez'><img src="img/github-icon.png"></img></a></div>
-                  </div>
-                  <div class='col-md-4'></div>
+            <span id='splash-image'></span>
+            <div class='splash-text fadeIn'>
+              <div class='row'><h1>Ryan Stong</h1></div>
+              <div class='row'><h2>Front End, UX Dev</h2></div>
+              <div class='row contact'>
+                  <a href='https://www.linkedin.com/in/ryanstong' target='_blank'><i class="fa fa-4x fa-linkedin-square"></i></a>
+                  <a href='mailto:rvanstong@gmail.com?subject=Would-love-to-talk-to-you!'><i class="fa fa-4x fa-envelope-o"></i></a>
+                  <a href='https://github.com/descartez' target='_blank'><i class="fa fa-4x fa-github-square"></i></a>
                 </div>
-                <div class='col-md-4'><img src="img/profile.png"></img></div>
-                <div class='col-md-1'></div>
-              </div>
-            </article>
-
-            <article id='skills'>
-              <a name='skills'></a>
-              <div class='col-md-2'><h1>SKILLS</h1></div>
-              <div class='skill-bar col-md-10'>
-                <ul>
-                  <li class='js-bar'>JavaScript</li>
-                  <li class='ruby-bar'>Ruby</li>
-                  <li class='html-bar'>HTML</li>
-                  <li class='css-bar'>CSS</li>
-                  <li class='other-bar'>More</li>
-                </ul>
-              </div>
-              <div class='row'>
-                <div class='col-md-2'></div>
-                <div class='col-md-10'>
-                  <br>
-                  <p>JavaScript, jQuery, Ruby, Rails, HTML/CSS, and anything in the Adobe Creative Suite.</p>
-                  <p>Interested in further education with AngularJS.</p>
-                </div>
-              </div>
-            </article>
-
-            <article id='projects'>
-              <a name='projects'></a>
-              <div class='row'><div class='col-md-2'><h1>PROJECTS</h1></div></div>
-              <div class='row'>
-                <div class='col-md-1'></div>
-                <div class='col-md-4'>
-                  <h2><a href='http://codecrush.herokuapp.com'>Code Crush</a></h2>
-                  <p>Interactive typing game built in one week as final project for Dev Bootcamp. Created to increase skill and speed in typing symbols and code.</p>
-                  <p>
-                    <strong>Contributions:</strong>
-                    Assets, Front End, Site Design
-                  </p>
-                  <p>
-                    <strong>Technologies:</strong>
-                    Phaser.io, JavaScript, MongoDB, Express, AngularJS, Node, Heroku
-                  </p>
-                </div>
-                <div class='col-md-4'>
-                  <h2><a href='http://invisiblekingdom.herokuapp.com'>Invisible Kingdom</a></h2>
-                  <p>Story generator which ties randomly generated content to geolocation coordinates.</p>
-                  <p>
-                    <strong>Contributions:</strong>
-                    Content, Functionality, Front End, Database
-                  </p>
-                  <p>
-                    <strong>Technologies:</strong>
-                    Sinatra, ActiveRecord, JavaScript
-                  </p>
-                  </div>
-                  <div class='col-md-3'>
-                    <h2><a href='https://github.com/descartez/algorithm.ic'>algorithm.ic</a></h2>
-                    <p>Collaborative repository of various algorithms and their programming solutions.</p>
-                    <p>
-                    <strong>Contributions:</strong>
-                    Content
-                  </p>
-                  <h2><a href='angularflipbook/flipbook.html'>ng-flipbook</a></h2>
-                  <p>A simple angular app which uses Angular directives to create a virtual flipbook.</p>
-                  <p>
-                    <strong>Technologies:</strong>
-                    Angular
-                  </p>
-                    <h2><a href='https://github.com/descartez'>Always building<a></h2>
-                    <p>More to come!</p>
-                  </div>
-                </div>
-              </article>
-              <div class='row'>
-              <article id='experience'>
-                <a name='experience'></a>
-                <div class='col-md-6'>
-                  <h1>Experience</h1>
-                  <ul>
-                    <li><h2>Dev Bootcamp, Aug 2014-Jan 2015</h2></li>
-                    <li><h3>Web Dev Student</h3></li>
-                    <li><h2>PSAV Presentations, April-Aug 2014</h2></li>
-                    <li><h3>Presentation Tech, Core Team member</h3></li>
-                    <li><h2>Cheetah Conservation Fund, Feb 2014</h2></li>
-                    <li><h3>Advertising Rep, Graphic Designer (volunteer)</h3></li>
-                    <li><h2>Sur La Table, Nov 2013-Feb 2014</h2></li>
-                    <li><h3>Retail Associate, Team Member</h3></li>
-                  </ul>
-                </div>
-              </article>
-              <article id='education'>
-                <div class='col-md-6'>
-                  <h1>Education</h1>
-                  <ul>
-                    <li><h2>Dev Bootcamp, Aug 2014-Jan 2015</h2></li>
-                    <li><h3>Web Dev Student</h3></li>
-                    <li>
-                      <p>+1000 hour, 19 week immersive coding boot camp, based in San Francisco.</p>
-                    </li>
-
-                    <li><h2>Westmont College, Aug 2008-May 2012</h2></li>
-                    <li><h3>Bachelors of Arts, Communication Studies</h3></li>
-                    <li>
-                      <p>Classical Liberal Arts education, with specific focus on graphics, rhetoric, and marketing.</p>
-                    </li>
-                    <li><h2>Illustration Academy, July 2010</h2></li>
-                    <li><h3>Graduate</h3></li>
-                    <li>
-                      <p>3 week illustration intensive program in classical media and graphics.</p>
-                    </li>
-                  </ul>
-                </div>
-              </article>
               </div>
             </div>
-          </body>
-          </html>
+            <div class='tiles'>
+            <div ng-repeat='tile in ctrl.tiles'>
+              <div id='{{tile.tag}}'class='row tile {{tile.tag}}'>
+                <div class='col-md-6'><img ng-src='{{tile.picture}}'></img></div>
+                <div class='col-md-6'>
+                  <h3>{{tile.title}}</h3>
+                  <br>
+                  <p>{{tile.content}}</p>
+                </div>
+              </div>
+            </div>
+            <div class='row tile' id='{{ctrl.finalTile.tag}}'>
+                <div class='col-md-6'><a href="{{ctrl.finalTile.link}}" target='_blank'><img ng-src='{{ctrl.finalTile.picture}}'></img></a></div>
+                <div class='col-md-6'>
+                  <h3>{{ctrl.finalTile.title}}</h3>
+                  <br>
+                  <p>{{ctrl.finalTile.content}}</p>
+                </div>
+              </div>
+          </div>
+
+          <div id='projects' class='exp row'>
+            <h3 class='col-md-12'>Projects</h3>
+            <ul>
+              <div class='col-md-4 proj'ng-repeat='proj in ctrl.projects'>
+                <li>
+                  <h4>{{proj.name}}</h4>
+                  <h5><a href='{{proj.link}}' target='_blank'>project</a> / <a href='{{proj.repoLink}}' target='_blank'>repo</a></h5>
+                  <p>{{proj.description}}</p>
+                  <p><strong>Contributions:</strong>
+                  <br>{{proj.contribution}}</p>
+                  <p><strong>Technologies:</strong><br>{{proj.tech}}</p>
+                </li>
+              </div>
+              <div class='row col-md-4 proj'>
+              <li>
+                  <h4>More to come!</h4>
+                  <p>I'm always building, always creating.</p>
+                  <a href='https://github.com/descartez' target='_blank'><img src='img/github-icon.png'></img></a>
+              </li>
+            </div>
+            </ul>
+          </div>
+
+          <div id='education' class='education exp row'>
+            <h3>Education</h3>
+            <ul>
+              <div class='col-md-4'ng-repeat='edu in ctrl.education'>
+                <li>
+                  <h4>{{edu.institution}},</h4>
+                  <h5>{{edu.timePeriod}}</h5>
+                  <p>{{edu.major}}</p>
+                  <p>{{edu.description}}</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div id='experience' class='experience exp row'>
+            <h3>Experience</h3>
+            <ul>
+              <div class='col-md-4'ng-repeat='exp in ctrl.experience'>
+                <li>
+                  <h4>{{exp.company}},</h4>
+                  <h5>{{exp.timePeriod}}</h5>
+                  <p>{{exp.position}}</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.js" ></script>
+          <script src="js/ux_resume.js"></script>
+        </body>
+        </html>
