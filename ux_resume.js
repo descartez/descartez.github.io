@@ -4,7 +4,7 @@ app.controller('InfoCtrl',[function(){
   var self = this;
 
   self.tiles = [
-    { title: 'About', content: 'I enjoy the technical and social - science, art, psychology, sociology - which enhance my creative skills and art. I love working in teams, making products which communicate their use and their purpose well. Looking for work that is both creative and challenging.', picture: '../img/profile.png', tag: 'about'},
+    { title: 'About', content: 'I enjoy the technical and social - science, art, psychology, sociology - which enhance my creative skills and art. I love working in teams, making products which communicate their use and their purpose well. Looking for work that is both creative and challenging.', picture: 'img/profile.png', tag: 'about'},
     { title: 'Skills', content: 'JavaScript, AngularJS, Ruby, HTML/CSS, Sinatra, the ability to pick things up as quickly as Spidey catches crooks.', picture: 'img/spider-man-60s-cartoon.jpg', tag: 'skills'},
     { title: 'Why Dev?', content: 'After graduating from college, I found myself with an excellent degree but no hard skills. I found work where I could, leveraging my design instincts and work ethic wherever possible. Then I found Dev Bootcamp. I pursued my own education, gathering hard skills in Web Dev. Now I go on, but not unarmed.', picture: 'img/dangerous-to-go.jpg', tag: 'why-dev'},
   ];
