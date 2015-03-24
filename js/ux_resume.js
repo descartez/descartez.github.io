@@ -26,7 +26,7 @@ app.controller('InfoCtrl',[function(){
   ];
 
   self.projects = [
-  { name: 'refbot', description: 'Current project, not currently launched. An Angular app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.', contribution: 'Front End, Site Design, UX', tech: 'HTML, CSS, Angular', link:'', repoLink: 'https://github.com/descartez/refbot'},
+  { name: 'refbot', description: 'Current project, not currently launched. An Angular app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.', contribution: 'Front End, Site Design, UX', tech: 'HTML, CSS, AngularJS', link:'', repoLink: 'https://github.com/descartez/refbot'},
   { name: 'Code Crush', description: 'Interactive typing game built in one week as final project for Dev Boot Camp. Created to increase skill and speed in typing symbols and code.', contribution: 'Assets, Front End, Site Design, UX', tech: 'Phaser.io, JavaScript, MongoDB, Express, AngularJS, Node', link:'http://codecrush.herokuapp.com/#/home', repoLink: 'https://github.com/descartez/code-crush'},
   { name: 'Invisible Kingdom', description: 'Story generator which ties randomly generated content to geolocation coordinates.', contribution: 'Content, Functionality, UX', tech: 'Sinatra, ActiveRecord, jQuery, AJAX', link:'http://invisiblekingdom.herokuapp.com/', repoLink: 'https://github.com/descartez/invisiblekingdom'},
   ];
