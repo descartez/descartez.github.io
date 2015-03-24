@@ -96,7 +96,7 @@
               <div class='col-md-4 proj'ng-repeat='proj in ctrl.projects'>
                 <li>
                   <h4>{{proj.name}}</h4>
-                  <h5><a href='{{proj.link}}' target='_blank'>project</a> / <a href='{{proj.repoLink}}' target='_blank'>repo</a></h5>
+                  <h5><a ng-href='{{proj.link}}' target='_blank'>project</a> / <a href='{{proj.repoLink}}' target='_blank'>repo</a></h5>
                   <p>{{proj.description}}</p>
                   <p><strong>Contributions:</strong>
                   <br>{{proj.contribution}}</p>
