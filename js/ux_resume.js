@@ -9,7 +9,7 @@ app.controller('InfoCtrl',[function(){
   { title: 'Why Dev?', content: 'After graduating from college, I found myself with an excellent degree but no hard skills. I found work where I could, leveraging my design instincts and work ethic wherever possible. Then I found Dev Bootcamp. I pursued my own education, gathering hard skills in Web Dev. Now I go on, but not unarmed.', picture: 'img/dangerous-to-go.jpg', tag: 'why-dev'},
   ];
 
-  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé here!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-ux.pdf'}
+  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé here!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-UX.pdf'}
 
   self.education = [
   { institution: 'Dev Bootcamp', major: 'Web Dev Graduate', description: '+1000 hour, 19 week immersive coding boot camp, based in San Francisco.', timePeriod: 'Aug 2014-Jan 2015'},
