@@ -9,7 +9,7 @@ app.controller('InfoCtrl',[function(){
   { title: 'Why Dev?', content: 'After graduating from college, I found myself with an excellent degree but no hard skills. I found work where I could, leveraging my design instincts and work ethic wherever possible. Then I found Dev Bootcamp. I pursued my own education, gathering hard skills in Web Dev. Now I go on, but not unarmed.', picture: 'img/dangerous-to-go.jpg', tag: 'why-dev'},
   ];
 
-  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé here!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-UX.pdf'}
+  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé by clicking on the tile!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-UX.pdf'}
 
   self.education = [
   { institution: 'Dev Bootcamp', major: 'Web Dev Graduate', description: '+1000 hour, 19 week immersive coding boot camp, based in San Francisco.', timePeriod: 'Aug 2014-Jan 2015'},
@@ -26,7 +26,7 @@ app.controller('InfoCtrl',[function(){
   ];
 
   self.projects = [
-  { name: 'refbot', description: 'Current project, not currently launched. An Angular app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.', contribution: 'Front End, Site Design, UX', tech: 'HTML, CSS, AngularJS', link:'../../projects/refbot/index.html', repoLink: 'https://github.com/descartez/refbot'},
+  { name: 'refbot', description: 'Current project, work in progress. An Angular app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.', contribution: 'Front End, Site Design, UX', tech: 'HTML, CSS, AngularJS', link:'../../projects/refbot/index.html', repoLink: 'https://github.com/descartez/refbot'},
   { name: 'Code Crush', description: 'Interactive typing game built in one week as final project for Dev Boot Camp. Created to increase skill and speed in typing symbols and code.', contribution: 'Assets, Front End, Site Design, UX', tech: 'Phaser.io, JavaScript, MongoDB, Express, AngularJS, Node', link:'http://codecrush.herokuapp.com/#/home', repoLink: 'https://github.com/descartez/code-crush'},
   { name: 'Invisible Kingdom', description: 'Story generator which ties randomly generated content to geolocation coordinates.', contribution: 'Content, Functionality, UX', tech: 'Sinatra, ActiveRecord, jQuery, AJAX', link:'http://invisiblekingdom.herokuapp.com/', repoLink: 'https://github.com/descartez/invisiblekingdom'},
   ];
