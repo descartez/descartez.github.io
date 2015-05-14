@@ -93,8 +93,9 @@
           <div id='projects' class='exp row'>
             <h3 class='col-md-12'>Projects</h3>
             <ul>
-              <div class='col-md-4 proj'ng-repeat='proj in ctrl.projects'>
+              <div class='row col-md-4 proj' ng-repeat='proj in ctrl.projects'>
                 <li>
+                  <a ng-href='{{proj.link}}'><img ng-src="{{proj.picture}}"></img></a>
                   <h4>{{proj.name}}</h4>
                   <h5><a ng-href='{{proj.link}}' target='_blank'>project</a> / <a href='{{proj.repoLink}}' target='_blank'>repo</a></h5>
                   <p>{{proj.description}}</p>
