@@ -72,8 +72,8 @@
           <div class='tiles'>
             <div ng-repeat='tile in ctrl.tiles'>
               <div id='{{tile.tag}}'class='row tile {{tile.tag}}'>
-                <div class='col-md-6'><img ng-src='{{tile.picture}}'></img></div>
-                <div class='col-md-6'>
+                <div class='col-md-4'><img ng-src='{{tile.picture}}'></img></div>
+                <div class='col-md-8'>
                   <h3>{{tile.title}}</h3>
                   <br>
                   <p>{{tile.content}}</p>
@@ -81,8 +81,8 @@
               </div>
             </div>
             <div class='row tile' id='{{ctrl.finalTile.tag}}'>
-              <div class='col-md-6'><a href="{{ctrl.finalTile.link}}" target='_blank'><img ng-src='{{ctrl.finalTile.picture}}'></img></a></div>
-              <div class='col-md-6'>
+              <div class='col-md-4'><a href="{{ctrl.finalTile.link}}" target='_blank'><img ng-src='{{ctrl.finalTile.picture}}'></img></a></div>
+              <div class='col-md-8'>
                 <h3>{{ctrl.finalTile.title}}</h3>
                 <br>
                 <p>{{ctrl.finalTile.content}}</p>
