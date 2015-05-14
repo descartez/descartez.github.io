@@ -9,12 +9,12 @@ app.controller('InfoCtrl',[function(){
   { title: 'Why Dev?', content: 'After graduating from college, I found myself with an excellent degree but no hard skills. I found work where I could, leveraging my design instincts and work ethic wherever possible. Then I found Dev Bootcamp. I pursued my own education, gathering hard skills in Web Dev. Now I go on armed with hard skills', picture: 'img/dangerous-to-go.jpg', tag: 'why-dev'},
   ];
 
-  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé by clicking on the tile!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-UX.pdf'}
+  self.finalTile = { title: 'Resumé', content: "Sometimes, people like things on paper. I understand that! You can get a copy of my resumé by clicking on the tile!", picture: 'img/resume-card.png', tag: 'resume', link: 'img/resume-4-21-2015.pdf'}
 
   self.education = [
-  { institution: 'Dev Bootcamp', major: 'Web Dev Graduate', description: '+1000 hour, 19 week immersive coding boot camp, based in San Francisco.', timePeriod: 'Aug 2014-Jan 2015'},
-  { institution: 'Westmont College', major: 'Bachelors of Arts, Communication Studies', description: 'Classical Liberal Arts education, with specific focus on graphics, rhetoric, and marketing.', timePeriod: 'Aug 2008-May 2012'},
-  { institution: 'Illustration Academy', major: 'Graduate', description: '3 week illustration intensive program in classical media and graphics.', timePeriod: 'July 2010'},
+  { institution: 'Dev Bootcamp', major: 'Web Dev Graduate', description: '+1000 hour, 19 week immersive coding boot camp, based in San Francisco.', timePeriod: 'Aug 2014-Jan 2015', picture: 'img/dbc-logo.png'},
+  { institution: 'Westmont College', major: 'Bachelors of Arts, Communication Studies', description: 'Classical Liberal Arts education, with specific focus on graphics, rhetoric, and marketing.', timePeriod: 'Aug 2008-May 2012', picture: 'img/westmont-college-logo.png'},
+  { institution: 'Illustration Academy', major: 'Graduate', description: '3 week illustration intensive program in classical media and graphics.', timePeriod: 'July 2010', picture: 'img/illustration-academy-logo.png'},
   ];
 
   self.experience = [
