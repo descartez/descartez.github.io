@@ -41,16 +41,22 @@ nav li a:hover {
   text-align: center;
   margin-top: 225px;
   color: #303030;
+  padding: 10px;
+
   /*font-family: 'Krungthep';*/
 }
 
 .splash-text h1{
   font-size: 5em;
   padding-bottom: 30px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 .splash-text h2{
-  font-size: 3em
+  font-size: 3em;
+    background-color: white;
+    opacity: 0.8;
 }
 
 .heart h2{
@@ -59,6 +65,8 @@ nav li a:hover {
 
 .contact {
   margin-top: 25px;
+  background-color: white;
+  opacity: 0.8;
 }
 
 .contact a{
@@ -68,7 +76,7 @@ nav li a:hover {
 }
 
 .contact a:hover{
-  color: white;
+  color: black;
 }
 
 .contact li {

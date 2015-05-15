@@ -18,7 +18,7 @@ app.controller('InfoCtrl',[function(){
   ];
 
   self.experience = [
-  { company: 'Dev Bootcamp', position: "Teacher's Assistant", timePeriod: 'March 2015-current' },
+  { company: 'Dev Bootcamp', position: "Teacher's Assistant", timePeriod: 'March 2015-May 2015' },
   { company: 'Dev Bootcamp', position: 'Web Dev Student', timePeriod: 'Aug 2014-Jan 2015' },
   { company: 'PSAV Presentations', position: 'Presentation Tech, Core Team member', timePeriod: 'April-Aug 2014' },
   { company: 'Cheetah Conservation Fund', position: 'Advertising Rep, Graphic Designer (volunteer)', timePeriod: 'Feb 2014' },
