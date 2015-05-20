@@ -87,7 +87,7 @@ app.controller('InfoCtrl', [
             tech: 'JavaScript, jQuery',
             link: 'http://descartez.github.io/pure-notes-js-ly/',
             repoLink: 'https://github.com/descartez/pure-notes-js-ly',
-            picture: ''
+            picture: 'img/pure-notes-js-ly-screencap.png'
         }, {
             name: 'refbot',
             description: 'An AngularJS app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.',
