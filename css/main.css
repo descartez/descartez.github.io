@@ -148,6 +148,10 @@ nav li a:hover {
   padding: 20px;
 }
 
+.proj li {
+  margin-bottom: 15px;
+}
+
 .proj img {
   padding-left: 20%;
   padding-right: 20%;
