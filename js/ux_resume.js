@@ -1,5 +1,6 @@
 var app = angular.module('app', []);
 app.controller('InfoCtrl', [
+
     function() {
         console.log('controller has loaded!');
         var self = this;
@@ -72,6 +73,14 @@ app.controller('InfoCtrl', [
         }, ];
 
         self.projects = [{
+            name: 'The source!',
+            description: "I'm always building, always creating.",
+            contribution: "The whole kit and kaboodle.",
+            tech: 'JavaScript, Ruby, HTML, CSS, Ruby on Rails, MEAN stack',
+            link: 'https://github.com/descartez',
+            repoLink: 'https://github.com/descartez',
+            picture: 'img/github-icon.png'
+        }, {
             name: 'pure.notes.js.ly',
             description: 'A JS/jQuery app which uses local storage to store notes. Made in a day as a challenge, quickly iterating over many approaches until final project was reached.',
             contribution: 'Design, Functionality',
@@ -103,15 +112,7 @@ app.controller('InfoCtrl', [
             link: 'http://invisiblekingdom.herokuapp.com/',
             repoLink: 'https://github.com/descartez/invisiblekingdom',
             picture: 'img/invisible-kingdom-screencap.png'
-        }, {
-            name: 'More to come!',
-            description: "I'm always building, always creating.",
-            contribution: 'The whole kit and kaboodle.',
-            tech: 'JavaScript, Ruby, HTML, CSS, Ruby on Rails, MEAN stack',
-            link: 'https://github.com/descartez',
-            repoLink: 'https://github.com/descartez',
-            picture: 'img/github-icon.png'
-        } ];
+        }, ];
 
     }
 ]);
