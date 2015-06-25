@@ -150,6 +150,7 @@ nav li a:hover {
 .projects li {
   margin-top: 15px;
   margin-bottom: 30px;
+  margin-right: 20px;
 }
 
 .projects li img {
