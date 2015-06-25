@@ -80,7 +80,17 @@ app.controller('InfoCtrl', [
             link: 'https://github.com/descartez',
             repoLink: 'https://github.com/descartez',
             picture: 'img/github-icon.png'
-        }, {
+        },
+        {
+            name: 'CycleReady',
+            description: "Current project, WIP. Working through Code For America's Civic Hackathon. CycleReady helps hesitant bikers get the hang of urban biking and enables all riders to easily access bike info, swap tips, and advocate for their favorite routes.",
+            contribution: 'Front End Design and Functionality',
+            tech: 'JavaScript, D3.js, Ruby on Rails, Google Maps API',
+            link: 'http://cycleready.herokuapp.com/',
+            repoLink: 'https://github.com/cycleready/cycleready-web',
+            picture: ''
+        },
+        {
             name: 'pure.notes.js.ly',
             description: 'A JS/jQuery app which uses local storage to store notes. Made in a day as a challenge, quickly iterating over many approaches until final project was reached.',
             contribution: 'Design, Functionality',
@@ -88,7 +98,10 @@ app.controller('InfoCtrl', [
             link: 'http://descartez.github.io/pure-notes-js-ly/',
             repoLink: 'https://github.com/descartez/pure-notes-js-ly',
             picture: 'img/pure-notes-js-ly-screencap.png'
-        }, {
+        }]
+
+
+        self.projects2 = [{
             name: 'refbot',
             description: 'An AngularJS app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.',
             contribution: 'Front End, Site Design, UX',
