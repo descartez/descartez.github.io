@@ -50,7 +50,12 @@ app.controller('InfoCtrl', [
             picture: 'img/illustration-academy-logo.png'
         }, ];
 
-        self.experience = [{
+        self.experience = [
+        {
+            company: 'Freelance',
+            position: "Coding Tutor",
+            timePeriod: 'Current'
+        }, {
             company: 'Dev Bootcamp',
             position: "Teacher's Assistant",
             timePeriod: 'March 2015-May 2015'
