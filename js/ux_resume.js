@@ -45,8 +45,8 @@ app.controller('InfoCtrl', [
         }, {
             institution: 'Illustration Academy',
             major: 'Graduate',
-            description: '3 week illustration intensive program in classical media and graphics.',
-            timePeriod: 'July 2010',
+            description: '6 week illustration intensive program in classical media and graphics.',
+            timePeriod: 'June-July 2010',
             picture: 'img/illustration-academy-logo.png'
         }, ];
 
@@ -65,7 +65,7 @@ app.controller('InfoCtrl', [
         }, {
             company: 'Cheetah Conservation Fund',
             position: 'Advertising Rep, Graphic Designer (volunteer)',
-            timePeriod: 'Feb 2014'
+            timePeriod: 'Sept 2013-Feb 2014'
         }, {
             company: 'Sur La Table',
             position: 'Retail Associate, Team Member',
