@@ -53,7 +53,7 @@ app.controller('InfoCtrl', [
         self.experience = [
         {
             company: 'Freelance',
-            position: "Coding Tutor",
+            position: "Coding Tutor for kids of all ages",
             timePeriod: 'Current'
         }, {
             company: 'Dev Bootcamp',
