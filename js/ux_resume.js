@@ -87,6 +87,15 @@ app.controller('InfoCtrl', [
             picture: 'img/github-icon.png'
         },
         {
+            name: 'GURPS JSON',
+            description: "Current Project. A collection of skills and info for the General Use RolePlay System, translated from XML to JSON.",
+            contribution: "Formatting, parsing",
+            tech: 'Ruby, XML, JSON',
+            link: 'https://github.com/descartez/gurps-json',
+            repoLink: 'https://github.com/descartez/gurps-json',
+            picture: ''
+        },
+        {
             name: 'CycleReady',
             description: "Current project, WIP. Working through Code For America's Civic Hackathon. CycleReady helps hesitant bikers get the hang of urban biking and enables all riders to easily access bike info, swap tips, and advocate for their favorite routes.",
             contribution: 'Front End Design and Functionality',
@@ -95,6 +104,10 @@ app.controller('InfoCtrl', [
             repoLink: 'https://github.com/cycleready/cycleready-web',
             picture: ''
         },
+        ]
+
+
+        self.projects2 = [
         {
             name: 'pure.notes.js.ly',
             description: 'A JS/jQuery app which uses local storage to store notes. Made in a day as a challenge, quickly iterating over many approaches until final project was reached.',
@@ -103,10 +116,8 @@ app.controller('InfoCtrl', [
             link: 'http://descartez.github.io/pure-notes-js-ly/',
             repoLink: 'https://github.com/descartez/pure-notes-js-ly',
             picture: 'img/pure-notes-js-ly-screencap.png'
-        }]
-
-
-        self.projects2 = [{
+        },
+        {
             name: 'refbot',
             description: 'An AngularJS app which takes image URLs and displays them. Designed with artists in mind who need a single place to place their reference photos without the hassle of messing with multiple windows.',
             contribution: 'Front End, Site Design, UX',
@@ -122,7 +133,8 @@ app.controller('InfoCtrl', [
             link: 'http://codecrush.herokuapp.com/#/home',
             repoLink: 'https://github.com/descartez/code-crush',
             picture: 'img/codecrush-screencap.png'
-        }, {
+        },
+        {
             name: 'Invisible Kingdom',
             description: 'Story generator which ties randomly generated content to geolocation coordinates.',
             contribution: 'Content, Functionality, UX',
@@ -130,7 +142,7 @@ app.controller('InfoCtrl', [
             link: 'http://invisiblekingdom.herokuapp.com/',
             repoLink: 'https://github.com/descartez/invisiblekingdom',
             picture: 'img/invisible-kingdom-screencap.png'
-        }, ];
+        },];
 
     }
-]);
+    ]);

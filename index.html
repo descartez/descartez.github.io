@@ -109,19 +109,20 @@
             </div>
 
             <div class='projects exp row'>
-            <ul>
-              <div class='row col-md-4 proj' ng-repeat='proj in ctrl.projects2'>
-                <li>
-                  <a ng-href='{{proj.link}}'><img ng-src="{{proj.picture}}"></img></a>
-                  <h4>{{proj.name}}</h4>
-                  <h5><a ng-href='{{proj.link}}'>project</a> / <a href='{{proj.repoLink}}'>repo</a></h5>
-                  <p>{{proj.description}}</p>
-                  <p><strong>Contributions:</strong>
-                    <br>{{proj.contribution}}</p>
-                    <p><strong>Technologies:</strong><br>{{proj.tech}}</p>
-                  </li>
-                </div>
-              </ul>
+              <ul>
+                <div class='row col-md-4 proj' ng-repeat='proj in ctrl.projects2'>
+                  <li>
+                    <a ng-href='{{proj.link}}'><img ng-src="{{proj.picture}}"></img></a>
+                    <h4>{{proj.name}}</h4>
+                    <h5><a ng-href='{{proj.link}}'>project</a> / <a href='{{proj.repoLink}}'>repo</a></h5>
+                    <p>{{proj.description}}</p>
+                    <p><strong>Contributions:</strong>
+                      <br>{{proj.contribution}}</p>
+                      <p><strong>Technologies:</strong><br>{{proj.tech}}</p>
+                    </li>
+                  </div>
+                </ul>
+              </div>
             </div>
 
             <div id='education' class='divider education exp row'>
