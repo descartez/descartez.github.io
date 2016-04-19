@@ -7,7 +7,7 @@ categories: blog community
 
 This is hard for me to say. But January is my last month in my wonderful community.
 
-It's sad for me to say. Especially after I wrote that [post](http://descartez.github.io/devblog/community/2015/11/23/not-a-dorm.html) on living in such a great place.
+It's sad for me to say. Especially after I wrote that [post](http://descartez.github.io/blog/community/2015/11/23/not-a-dorm.html) on living in such a great place.
 
 There's a few things that led me to my decision. The first (and most boring) is money. I've been in SF for a year now, and I haven't found steady dev work. This city is expensive, and I've been having difficulty getting a job. It's a competitive market and while I love this city, it's not where I seem to be able to grow. If I find something before I pack up and leave, then I'll stay, but otherwise, it's time to go.
 
