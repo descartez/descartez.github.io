@@ -31,7 +31,7 @@ layout: default
       <h2>
         {{ post.title }}
       </h2>
-      {{ post.content }}
+      {{ post.content | markdownify }}
     </li>
     {% endfor %}
     <h2><a href="/jobs.html">Cont'd --></a></h2>
@@ -44,7 +44,7 @@ layout: default
       <h2>
         {{ post.title }}
       </h2>
-      {{ post.content }}
+      {{ post.content | markdownify }}
     </li>
     {% endfor %}
   </ul>
@@ -56,7 +56,7 @@ layout: default
       <h2>
         {{ post.title }}
       </h2>
-      {{ post.content }}
+      {{ post.content | markdownify }}
     </li>
     {% endfor %}
   </ul>

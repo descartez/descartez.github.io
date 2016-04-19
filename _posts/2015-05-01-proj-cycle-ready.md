@@ -12,14 +12,6 @@ site: [cycleready.herokuapp.com/](http://cycleready.herokuapp.com/){:target="_bl
 
 repo: [github.com/cycleready/cycleready-web](https://github.com/cycleready/cycleready-web){:target="_blank"}
 
-**Contributions:**
+**Contributions:** Front End
 
-- Front End
-
-**Technologies**
-
-- Rails
-- D3.js
-- HTML
-- CSS
-- Bootstrap
+**Technologies:** Rails, D3.js, HTML, CSS, Bootstrap
