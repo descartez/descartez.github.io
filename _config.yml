@@ -8,7 +8,7 @@
 # Site settings
 title: Ryan Stong
 email: rvanstong@gmail.com
-description: "I build build build."
+description: "I build build build. This website was built in  Brutalist style. Because sometimes text works better than fancy jumbotrons."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: dezdoesdev

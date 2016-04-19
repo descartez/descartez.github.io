@@ -8,4 +8,4 @@ categories: job
 ### Steven Label
 04-23-2016 to now
 
-> Process documents and provide technical solutions for interactions with company database
+> Process documents and develop solutions for interaction with company database. Mostly work with SQL and timecards.
