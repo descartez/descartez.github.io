@@ -6,6 +6,6 @@ categories: job
 ---
 
 ### Steven Label
-04-23-201 to current
+04-23-2016 to now
 
-> Processed documents and provided technical solutions for interactions with company database
+> Process documents and provide technical solutions for interactions with company database
