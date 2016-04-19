@@ -2,7 +2,7 @@
 layout: post
 title:  "So You Want to Learn to Program"
 date:   2016-01-6 14:25:31
-categories: lessons
+categories: blog lessons
 ---
 ### Intro
 Learning to program isn't easy. It requires a [growth mindset](https://en.wikipedia.org/wiki/Mindset#Fixed_mindset_and_growth_mindset), and the knowledge that your brain can learn things. Natural talent is overrated.

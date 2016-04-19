@@ -2,7 +2,7 @@
 /**
  * Site header
  */
-.site-header {
+ .site-header {
     min-height: 56px;
     font-family: $base-header-font;
     // Positioning context for the mobile navigation icon
@@ -96,7 +96,7 @@
 /**
  * Site footer
  */
-.site-footer {
+ .site-footer {
     padding: $spacing-unit 0;
 }
 
@@ -165,18 +165,25 @@
 /**
  * Page content
  */
-.page-content {
+ .page-content {
     padding: $spacing-unit 0;
 }
 
 .page-heading {
     font-size: 20px;
+    margin-bottom: -10px;
+    font-size: 2em;
+    font-family: 'Inconsolata';
+    letter-spacing: 3px;
+    font-variant: small-caps;
 }
 
 .post-list {
     margin-left: 0;
     list-style: none;
-
+    border: 2px solid;
+    border-color: $text-color;
+    padding: 10px;
     > li {
         margin-bottom: $spacing-unit;
     }
@@ -197,7 +204,7 @@
 /**
  * Posts
  */
-.post-header {
+ .post-header {
     margin-bottom: $spacing-unit;
 }
 

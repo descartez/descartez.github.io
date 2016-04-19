@@ -2,7 +2,7 @@
 layout: post
 title:  "Going Away"
 date:   2015-12-10 01:22:13
-categories: community
+categories: blog community
 ---
 
 This is hard for me to say. But January is my last month in my wonderful community.

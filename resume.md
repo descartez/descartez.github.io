@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resumé
-permalink: /resume/
+title: Plaintext Resumé
+permalink: /plaintext-resume/
 ---
 
 # Menu

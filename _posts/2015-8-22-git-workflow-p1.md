@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Basics: Workflow Pt.1"
 date:   2015-08-22 09:44:31
-categories: lessons intro git
+categories: blog lessons intro git
 ---
 # Git Workflow: Basics 1 of 2
 Okay, so you have to make an app, but you want to keep track of everything, and allow others to contribute. That's where Git comes in.

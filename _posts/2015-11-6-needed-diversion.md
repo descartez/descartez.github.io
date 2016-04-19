@@ -2,7 +2,7 @@
 layout: post
 title:  "Needed: Diversion"
 date:   2015-11-6 09:44:31
-categories: workflow
+categories: blog workflow
 ---
 
 ## A Quick Intro to Pomodoro

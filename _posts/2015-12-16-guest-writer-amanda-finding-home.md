@@ -2,7 +2,7 @@
 layout: post
 title:  "Finding Home"
 date:   2015-12-16 01:59:07
-categories: community
+categories: blog community
 ---
 ### Guest Writer: Amanda Nelson
 

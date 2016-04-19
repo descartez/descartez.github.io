@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Use Pseudo-selectors?"
 date:   2015-11-7 09:44:31
-categories: lessons css
+categories: blog lessons css
 ---
 
 ## What are selectors?
