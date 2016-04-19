@@ -8,7 +8,7 @@ layout: default
   <ul class="post-list">
     <li>
       <h2>Programmer</h2>
-      <p>Ruby, JavaScript, Git, SQL and all things Web</p>
+      <p>Ruby, JavaScript, Git, SQL and all things Web.</p>
     </li>
     <li>
       <h2>Communicator</h2>
@@ -41,11 +41,10 @@ layout: default
   <ul class="post-list">
     {% for post in site.categories.edu %}
     <li>
-
       <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.title }}
       </h2>
-      <p>{{ post.excerpt }}</p>
+      {{ post.content }}
     </li>
     {% endfor %}
   </ul>
@@ -67,9 +66,8 @@ layout: default
     {% for post in site.categories.blog limit: 4 %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
       <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+       {{ post.title }}
       </h2>
     </li>
     {% endfor %}

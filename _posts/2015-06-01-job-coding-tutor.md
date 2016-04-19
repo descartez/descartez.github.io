@@ -8,4 +8,4 @@ categories: job
 ### Freelance
 06-01-2015 to 10-01-2015
 
-> Designed, built, and maintained custom websites for clients’ specifications.
+> Taught coding principles and web development to middle school students.

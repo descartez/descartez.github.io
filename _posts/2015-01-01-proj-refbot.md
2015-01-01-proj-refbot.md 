@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "RefBot"
+date:   2015-01-01 010:58:00
+categories: proj
+---
+> Art reference app. Collates and collects image urls and allows user to set sizes. Intended for artists to gather reference without worrying about multiple browser windows.
+
+
+site: [descartez.github.io/refbot/](http://descartez.github.io/refbot/){:target="_blank"}
+
+
+repo: [github.com/descartez/refbot](https://github.com/descartez/refbot){:target="_blank"}
+
+**Contributions:**
+
+- Functionality
+- Logo
+
+**Technologies**
+
+- AngularJS
+- HTML
+- CSS
+- Bootstrap

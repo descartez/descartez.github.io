@@ -24,7 +24,13 @@ __Short Version:__
 > In a response to the decadent and optimistic architecture of the 30s and 40s, a pragmatic and "morally serious" design mentality emerged. It mostly used concrete.
 
 ### History Repeats
-Flashy and cool "startup" site design is viewed as young, hip, and innovative. Their not wrong. There's something positive and ethereal about it. Sometimes sites I work on look this way. In response to this, Brutalistic principles applied to the web looks different. It's uncaring towards how new it looks. It just looks. It reads well. It doesn't break when new updates happen. It won't be outdated because the tech it's built on hasn't gone away.
+Flashy and cool "startup" site design is viewed as young, hip, and innovative. They're not wrong. There's something positive and energetic about it.
+
+Sometimes sites I work on look this way.
+
+But not this one.
+
+In response to the startup look, Brutalistic principles applied to the web look different. It's uncaring towards how new it looks. It just looks. It reads well. It doesn't break when new updates happen. It won't be outdated because the tech it's built on hasn't gone away.
 
 It's constructed rather than crafted.
 
@@ -32,8 +38,8 @@ It's constructed rather than crafted.
 This site is built on Jekyll (a Ruby blogging platform), with minimal SCSS and not much else. It works. It reads. It loads fast. It's not going anywhere.
 
 ### More Examples
-[Here](http://txti.es/)
+[Here](http://txti.es/){:target="_blank"}
 
-[Here (Warning: Cursing)](http://motherfuckingwebsite.com/)
+[Here (Warning: Cursing)](http://motherfuckingwebsite.com/){:target="_blank"}
 
-[Here](http://brutalistwebsites.com/)
+[Here](http://brutalistwebsites.com/){:target="_blank"}
