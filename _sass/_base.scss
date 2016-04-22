@@ -9,6 +9,12 @@ dl, dd, ol, ul, figure {
 }
 
 
+::selection {
+  background: #FF9023; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FF9023; /* Gecko Browsers */
+}
 
 /**
  * Basic styling
