@@ -36,7 +36,7 @@ So when I'm bored, it's often a sign I'm hopefully going to get something done. 
 
 ### Not the Most Important Thing
 
-The Most Important Thing is... Boredom lets you decompress. The resting brain is an excellent thing. I've written before about how breaks and silence [can lead to insight](http://descartez.github.io/devblog/workflow/2015/11/06/needed-diversion.html#the-importance-of-showering). The brain at rest isn't actually idle (unless you've dulled it with sleep deprivation, alcohol, or drugs). It's doing innumerable things --keeping your heart rate going, regulating your breathing, looking for changes in environment, and running self-checks.
+The Most Important Thing is... Boredom lets you decompress. The resting brain is an excellent thing. I've written before about how breaks and silence [can lead to insight](http://descartez.github.io/blog/workflow/2015/11/06/needed-diversion.html#the-importance-of-showering). The brain at rest isn't actually idle (unless you've dulled it with sleep deprivation, alcohol, or drugs). It's doing innumerable things --keeping your heart rate going, regulating your breathing, looking for changes in environment, and running self-checks.
 
 Boredom isn't bad. The world is a crazy place full of [interesting things](http://ridiculouslyinteresting.com/) and your brain is an interesting place that you can explore forever. Dreams are an incredible example of that. Boredom is an opportunity to explore and drive yourself.
 
