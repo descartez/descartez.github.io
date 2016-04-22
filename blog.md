@@ -7,8 +7,8 @@ layout: default
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
-       <a href="{{ post.url }}">{{ post.title }}
-      </h2></a>
+       <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
     </li>
     {% endfor %}
   </ul>
