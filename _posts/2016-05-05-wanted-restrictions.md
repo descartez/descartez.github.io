@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Wanted: Restrictions"
-date:   2015-12-16 01:59:07
-categories: blog lessons
+date:   2016-5-05 01:59:07
+categories: blog workflow
 ---
 
 Artist's will tell you the worst thing they ever encounter is a blank canvas.
