@@ -35,7 +35,3 @@ Sometimes I am restricted by the requirements of my project or my tools. Other t
 
 If you have the time, want to learn something, or having trouble with motivation. Slap a restriction on it. Force yourself to think a little.
 
-{% include ryan_cv.html %}
-{% include ryan_cv.js %}
-{% include ryan_cv.css %}
-
