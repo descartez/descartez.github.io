@@ -2,7 +2,7 @@
 layout: post
 title:  "One Hard Thing"
 date:   2016-05-14 010:58:00
-categories: proj
+categories: blog workflow
 ---
 
 I wake up at 5 every weekday morning. I wish I could say that it was because I wanted to make the most of the day, coding and reading before work. I do those things, but that's really a side effect. It's funny because the waking up was a side-effect of new medication I was taking. I decided to screw it and plan on waking up then anyway. There was no grand plan.
