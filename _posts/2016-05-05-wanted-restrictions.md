@@ -34,4 +34,3 @@ As a learning experience, it's pretty damn fun.
 Sometimes I am restricted by the requirements of my project or my tools. Other times I choose it. So I can learn. Or avoid [decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue). Intentionality is key. Otherwise it's just false difficulty.
 
 If you have the time, want to learn something, or having trouble with motivation. Slap a restriction on it. Force yourself to think a little.
-
