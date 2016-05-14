@@ -14,8 +14,11 @@ Waking up sucks. It's hard. Doing hard things makes other hard things easier. I 
 I'm relearning. Leaning in hard, hustling, and doing tough things is easier to do when you are already doing something that's hard. So waking up is my One Hard Thing.
 
 Here's the structure:
+
 - Wake up
+
 - Hate myself for being awake but I set too many alarms to back out now
+
 - Code
 
 The trade off is that nothing is open at 5am, and running errands after work becomes a race against the sun. I have to be asleep by 9 in order to get a full 8. I'm lucky if I get 7+. But I'm up. Every day. It seems to work.
