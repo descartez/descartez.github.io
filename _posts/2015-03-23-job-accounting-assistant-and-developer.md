@@ -8,4 +8,4 @@ categories: job
 ### Steven Label
 04-23-2016 to now
 
-> Process documents and develop solutions for interaction with company database. Mostly work with SQL and timecards.
+> Process documents and develop solutions for interaction with company database. Currently developing web app which tracks manufacturing machine usage.
