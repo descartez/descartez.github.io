@@ -1,7 +1,9 @@
 ---
+title: Blog
 layout: default
+permalink: blog.html
 ---
-
+<h1 class="page-heading">The Blog</h1>
 <ul class="post-list">
   {% for post in site.categories.blog %}
   <li>

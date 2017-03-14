@@ -1,10 +1,10 @@
 ---
+title: Jobs
 layout: default
+permalink: jobs.html
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">The Jobs (All of Them)</h1>
+  <h1 class="page-heading">The Jobs</h1>
   <ul class="post-list">
     {% for post in site.categories.job %}
     <li>

@@ -7,80 +7,13 @@ layout: default
   <h1 id='about-me' class="page-heading">Me</h1>
   <ul class="post-list">
     <li>
-      <h2>Programmer</h2>
-      <p>Developer, Programmer. HTML/CSS, JavaScript and Ruby are my jams. Experience with Ruby on Rails, Sinatra, jQUery.</p>
+      <h2>Developer, Programmer.</h2>
 
-      <p>Sole developer at a manufacturer in Santa Fe Springs, developing a machine usage tracking app which already is paying dividends. Seeking development opportunities in the Internet of Things field. I aspire to make apps that look good to the user, and code looks good to fellow programmers.</p>
+      <p>HTML/CSS, JavaScript and Ruby are my jams. Experience with Ruby on Rails, Sinatra, jQuery.</p>
+
+      <p>Sole developer at a manufacturer in Santa Fe Springs, developing a machine usage tracking app which already is paying dividends. I aspire to make apps that look good to the user, and code looks good to fellow programmers.</p>
 
       <p>Interests: Efficiency, building things (whether with my 3d printer, my hands, or my keyboard), measuring the unmeasured..</p>
     </li>
-    <li>
-      <h2>Guy Who Draws</h2>
-      <p>You can see my instagram <a href="https://www.instagram.com/_dezdraws/?hl=en">here.</a></p>
-    </li>
   </ul>
-
-
-  <h1 id='about-me' class="page-heading">The Info</h1>
-  <ul class="post-list">
-    <li>
-      <h2>Email</h2>
-      <p>rvanstong@gmail.com</p>
-    </li>
-    <li>
-      <h2>Github</h2>
-      <p><a href="https://github.com/descartez">Descartez</a></p>
-    </li>
-  </ul>
-
-  <h1 class="page-heading">The Jobs</h1>
-  <ul class="post-list">
-    {% for post in site.categories.job limit:2 %}
-    <li>
-      <h2>
-        {{ post.title }}
-      </h2>
-      {{ post.content | markdownify }}
-    </li>
-    {% endfor %}
-    <h2><a href="/jobs.html">Cont'd --></a></h2>
-  </ul>
-
-  <h1 class="page-heading">The Education</h1>
-  <ul class="post-list">
-    {% for post in site.categories.edu %}
-    <li>
-      <h2>
-        {{ post.title }}
-      </h2>
-      {{ post.content | markdownify }}
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h1 class="page-heading">The Projects</h1>
-  <ul class="post-list">
-    {% for post in site.categories.proj %}
-    <li>
-      <h2>
-        {{ post.title }}
-      </h2>
-      {{ post.content | markdownify }}
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h1 class="page-heading">The Blog</h1>
-  <ul class="post-list">
-    {% for post in site.categories.blog limit: 4 %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-       <a href="{{ post.url }}">{{ post.title }}</a>
-     </h2>
-   </li>
-   {% endfor %}
-   <h2><a href="/blog.html">Cont'd --></a></h2>
- </ul>
-
 </div>
