@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Partials, Ajax, and Partial Simplicity"
-date:   2016-11-05 01:59:07
+date:   2017-01-05 01:59:07
 categories: blog lessons ruby
 ---
 
