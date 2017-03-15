@@ -1,27 +1,23 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
   <h1 id='about-me' class="page-heading">Developer, Programmer</h1>
   <ul class="post-list">
     <li>
       <p>HTML/CSS, JavaScript and Ruby are my jams. Experience with Ruby on Rails, Sinatra, jQuery.</p>
-
       <p>Sole developer at a manufacturer in Santa Fe Springs, developing a machine usage tracking app which already is paying dividends. I aspire to make apps that look good to the user, and code looks good to fellow programmers.</p>
-
       <p>Interests: Efficiency, building things (whether with my 3d printer, my hands, or my keyboard), measuring the unmeasured.</p>
     </li>
     <li>
       <p>Take a look at my:</p>
-        <div class="second-nav">
-          {% for my_page in site.pages %}
+      <div class="second-nav">
+        {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
-          {% endfor %}
-        </div>
+        {% endfor %}
+      </div>
     </li>
   </ul>
 </div>
