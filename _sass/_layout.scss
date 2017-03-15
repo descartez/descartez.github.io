@@ -23,6 +23,15 @@
     }
 }
 
+.second-nav {
+    text-align: center;
+    margin-top: -20px;
+    .page-link {
+        color: $grey-color;
+        margin-right: 20px;
+    }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;

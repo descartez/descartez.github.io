@@ -7,10 +7,10 @@ permalink: edu.html
 <ul class="post-list">
   {% for post in site.categories.edu %}
   <li>
-  <h2>
-  {{ post.title }}
-  </h2>
-  {{ post.content | markdownify }}
+    <h2>
+      {{ post.title }}
+    </h2>
+    {{ post.content | markdownify }}
   </li>
   {% endfor %}
 </ul>
