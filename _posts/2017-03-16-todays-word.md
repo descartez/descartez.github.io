@@ -29,7 +29,7 @@ Okay. It's a long string. A really long string.
 
 ### The Breakdown:
 
-We need to count how many occurrences of each character there is in the string. A hash will do. As it often does. So lets create an article called `big_string`.
+We need to count how many occurrences of each character there is in the string. A hash will do. As it often does. So lets create a variable called `big_string`.
 
 Then, we call split on it so we can iterate over `big_string`. It'll look like `big_string_array = big_string.split("")`
 
