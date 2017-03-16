@@ -116,3 +116,6 @@ So there we go! We solved it! You can see the full code of my solution [here](ht
 
 ### The Odd Bit:
 While I was writing tests for this, I realized that this approach only works if the word has no repeating characters. For example, `arial` won't work because the `a` in both places gets put into the same place. You will end up with `aril` as an output.
+
+### Further Reading:
+- [Hash Tricks](http://thirtysixthspan.com/posts/hash-tricks-in-ruby)
