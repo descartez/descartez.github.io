@@ -73,7 +73,7 @@ Wait. Hold up.
 
 It's not in descending order. If we did the proper magic to construct our string (getting to that soon), the string we'd get from before the `_` would be `fbnhzdjgwlqvepxki`.
 
-Not a word.
+Not a word. At least not in English. Maybe in an ancient tongue referring to [an ancient and terrible being](https://en.wikipedia.org/wiki/Cthulhu).
 
 It needs to be reversed! That's the problem. It's not in descending order. So we will call `.reverse` on this array.
 
