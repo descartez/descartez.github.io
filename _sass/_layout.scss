@@ -23,15 +23,6 @@
     }
 }
 
-.second-nav {
-    text-align: center;
-    margin-top: -20px;
-    .page-link {
-        color: $grey-color;
-        margin-right: 20px;
-    }
-}
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -173,13 +164,13 @@
 /**
  * Page content
  */
- .page-content {
+.page-content {
     padding: $spacing-unit 0;
 }
 
 .page-heading {
     font-size: 20px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     font-size: 2em;
     font-family: 'Inconsolata';
     letter-spacing: 3px;
@@ -212,7 +203,7 @@
 /**
  * Posts
  */
- .post-header {
+.post-header {
     margin-bottom: $spacing-unit;
 }
 
