@@ -9,15 +9,79 @@ layout: default
       <p>Sole developer at a manufacturer in Santa Fe Springs, developing a machine usage tracking app which already is paying dividends. I aspire to make apps that look good to the user, and code looks good to fellow programmers.</p>
       <p>Interests: Efficiency, building things (whether with my 3d printer, my hands, or my keyboard), measuring the unmeasured.</p>
     </li>
-    <li>
-      <p>Take a look at my:</p>
-      <div class="second-nav">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </li>
   </ul>
+  <div class="xs-block-grid-1 sm-block-grid-2 lg-block-grid-4">
+    <div class="block-grid__item">
+      <h1 class="page-heading">The Blog</h1>
+      <ul class="post-list xs-border">
+        {% for post in site.categories.blog limit:1%}
+          <li>
+            <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+        <li>
+          <h2>
+          <a href="/blog.html">See more --></a>
+          </h2>
+        </li>
+      </ul>
+    </div>
+    <div class="block-grid__item">
+      <h1 class="page-heading">The Jobs</h1>
+      <ul class="post-list xs-border">
+        {% for post in site.categories.job limit:1%}
+          <li>
+            <h2>
+            {{ post.title }}
+            </h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+        <li>
+          <h2>
+          <a href="/jobs.html">See more --></a>
+          </h2>
+        </li>
+      </ul>
+    </div>
+    <div class="block-grid__item">
+      <h1 class="page-heading">The Education</h1>
+      <ul class="post-list xs-border">
+        {% for post in site.categories.edu limit:1%}
+          <li>
+            <h2>
+            {{ post.title }}
+            </h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+        <li>
+          <h2>
+          <a href="/edu.html">See more --></a>
+          </h2>
+        </li>
+      </ul>
+    </div>
+    <div class="block-grid__item">
+      <h1 class="page-heading">The Projects</h1>
+      <ul class="post-list xs-border">
+        {% for post in site.categories.proj limit:1%}
+          <li>
+            <h2>
+            {{ post.title }}
+            </h2>
+            {{ post.excerpt }}
+          </li>
+          <li>
+            <h2>
+            <a href="/projs.html">See more --></a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
