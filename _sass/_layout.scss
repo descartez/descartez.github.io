@@ -10,6 +10,7 @@
 }
 
 .site-title {
+    color: $link-hover-color;
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -19,26 +20,30 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $link-visited-color;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+    color: red;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $grey-color;
+        color: $link-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+    .page-link:hover {
+        color: $link-hover-color
     }
 
     @include media-query($on-palm) {
@@ -198,7 +203,17 @@
     font-size: 24px;
 }
 
+a {
+    color: red
+}
 
+a:visited {
+    color: red
+}
+
+a:hover {
+    color: orange
+}
 
 /**
  * Posts
