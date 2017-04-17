@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
   <h1 id='about-me' class="page-heading">Web Developer</h1>
-  <ul class="post-list xs-border">
+  <ul class="post-list">
     <li>
       <p>HTML/CSS, JavaScript and Ruby are my jams. Experience with Ruby on Rails, Sinatra, jQuery.</p>
       <p>Sole developer at a manufacturer in Santa Fe Springs, developing a machine usage tracking app which already is paying dividends. I aspire to make apps that look good to the user, and code that looks good to fellow developers.</p>
@@ -13,7 +13,7 @@ layout: default
   <div class="xs-block-grid-1 sm-block-grid-2 lg-block-grid-3">
     <div class="block-grid__item">
       <h1 class="page-heading">The Blog</h1>
-      <ul class="post-list xs-border">
+      <ul class="post-list">
         {% for post in site.categories.blog limit:1%}
         <li>
           <h2>
@@ -31,7 +31,7 @@ layout: default
     </div>
     <div class="block-grid__item">
       <h1 class="page-heading">The Jobs</h1>
-      <ul class="post-list xs-border">
+      <ul class="post-list">
         {% for post in site.categories.job limit:1%}
         <li>
           <h2>
@@ -49,7 +49,7 @@ layout: default
     </div>
     <div class="block-grid__item">
       <h1 class="page-heading">The Education</h1>
-      <ul class="post-list xs-border">
+      <ul class="post-list">
         {% for post in site.categories.edu limit:1%}
         <li>
           <h2>
@@ -68,7 +68,7 @@ layout: default
   </div>
   <h1 class="page-heading">The Projects</h1>
   <div class="xs-block-grid-1 sm-block-grid-2 lg-block-grid-3">
-    <ul class="post-list xs-border">
+    <ul class="post-list">
       {% for post in site.categories.proj %}
       <div class="block-grid__item">
         <li>
