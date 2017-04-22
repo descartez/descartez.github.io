@@ -28,7 +28,7 @@ I think these categories overlap somewhat.
 
 ```myodotracker``` is simple. It takes JSON objects with a head (denoting what type of transaction should occur to the data and where the data should go), and then data that gets passed along. There are multiple ways for the data to be parsed, and the transaction type gives a heads up to the API what the format of the data will look like.
 
-The code reads easy, but if I could change anything I would make the variable names in the JSON denote the _type_ of data being passed.  ```cycles``` (the number of rotations/armature movements/etc per machine) should be  ```cycles_integer``` and so on.
+The code reads easy, but if I could change anything I would make the variable names in the JSON denote the _type_ of data being passed.  ```cycles``` (the number of rotations/armature movements/actions a machine makes) should be  ```cycles_integer``` and so on.
 It's not strictly necessary, since the API is in Rails (and Ruby is dynamically typed), but it would be more descriptive and avoid confusion later on.
 
 Documentation is minimally needed, the handling of the JSON is mainly concerned with data storage first and foremost. The time of the start/stop signal being the most important. Any math done to calculate things like uptime and downtime are done by the backend rather than the devices on site or on receiving the signal. The API grabs the JSON and then stores it in objects.
