@@ -17,7 +17,7 @@ Since this is just a personal website and a resumé, I thought it was best to fo
 
 ### The History
 
-Read it [here.](https://en.wikipedia.org/wiki/Brutalist_architecture)
+Read it [here.](https://en.wikipedia.org/wiki/Brutalist_architecture){:target="_blank"}
 
 __Short Version:__
 
