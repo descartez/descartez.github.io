@@ -36,7 +36,7 @@ Documentation is minimally needed, the handling of the JSON is mainly concerned 
 ### Hard to Misuse
 If the devices do not denote the transaction type or put the wrong type of data in the wrong place, the data does not get stored. If you do not have the API key and the correct serial number of the device, the data gets rejected. It's very strict about it. Abuse is a big concern, as is collision. One device cannot and should not be sending data to the same place as another device. This is controlled by routing, and then the device sends it's serial code as well to be matched with the routes. If they don't match, they don't work.
 
-Since the devices are dealing with time, there's added complications of timezones which means the timestamps must be standardized (read: it's all in Epoch time). The machines that the tracking devices are all in the same timezone (they are at most only a few city blocks from each other), but standardization will be more important as we expand the project.
+Since the devices are dealing with time, there's added complications of timezones which means the timestamps must be standardized (read: it's all in Epoch time). The machines that the tracking devices are on are all in the same timezone (they are at most only a few city blocks from each other), but standardization will be more important as we expand the project.
 
 ### Easy to Read and Maintain Code That Uses It
 So far, I'm pretty proud with how the code reads. I am less happy about it's maintainability. There's some technical debt that's associated with my past self trying to be a bit too smart. I mentioned earlier about typing the variable names as an example.
