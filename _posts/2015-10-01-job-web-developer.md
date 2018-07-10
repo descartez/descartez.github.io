@@ -6,6 +6,6 @@ categories: job
 ---
 
 ### Freelance
-10-01-2015 to now
+10-01-2015 to present
 
-> Designed, built, and maintained custom websites for clients’ specifications.
+> - Designed, built, and maintained custom websites for clients’ specifications.

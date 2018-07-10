@@ -6,6 +6,8 @@ categories: job
 ---
 
 ### Freelance
-06-01-2015 to 10-01-2015
+06-01-2015 to present
 
-> Taught coding principles and web development to middle school students.
+> - Teaching a variety of students of varying skill levels and ages.
+> - Specializes in communication and people with attention deficit disorders.
+> - Uses self-made curriculum based off of coding boot camp experience.
