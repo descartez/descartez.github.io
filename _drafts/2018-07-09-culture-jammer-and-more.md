@@ -21,7 +21,7 @@ Information is the other prong to this system. The device would be hosting a var
 
 ### The Uses:
 
-- Digital Signposts: Communicating with the wifi name alone would prove valuable. You could mark facilities that otherwise look nondescript, and provide information about the site for activists or concerned citizens nearby for those that connect.
+- Digital Signposts: Communicating with the wifi name alone would prove valuable. You could mark facilities that otherwise look nondescript, and provide information about the site for activists or concerned citizens nearby for those that connect. The network could even pose as official, internal networks that then redirect the unwitting user to culture jamming information, used to encourage defection or simply to lower morale of bad actors.
 
 - Organization: Communicating without surveillance is key when discussing activism. Whether you are forming a union, planning a protest, or belong to an oppressed class, being able to form organizations and plan is key. If you use this system, especially if the wifi network is protected by a password only known to the initiated, you can ensure some semblance of privacy.
 
