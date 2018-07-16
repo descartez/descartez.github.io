@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Raspberry Networks and More"
+title:  "Hiding In Plain Sight"
 date:   2018-07-09 010:58:00
 categories: blog
 ---
